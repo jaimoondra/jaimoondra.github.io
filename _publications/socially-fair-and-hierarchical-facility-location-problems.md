@@ -1,5 +1,5 @@
 ---
-title: "Socially fair and hierarchical facility location problems"
+title: "Socially Fair and Hierarchical Facility Location Problems"
 collection: publications
 permalink: /publication/socially-fair-and-hierarchical-facility-location-problems
 excerpt: ''
