@@ -16,12 +16,31 @@ Education
 
 Work experience
 ======
+
+* Paper reviews for conferences including Integer Programming and Combinatorial Optimization (IPCO) 2022, Innovations in Theoretical Computer Science (ITCS) 2022, and Health Care Management Science (HCMS) 2022.
+
+* Research Assistant at Georgia Institute of Technology (January 2021 - present)
+
 * Summer 2018: Research Assistant
   * Duke University
   * Supervisor: Dr. Debmalya Panigrahi, Dr. Rong Ge
+
+Talks
+======
+
+* <i>Fairness Objective in Facility Location Problems</i> at INFORMS 2022
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Academic awards and fellowships
+======
+
+* ARC-ACO fellowship at Georgia Tech for Spring 2023: this is jointly awarded by the Algorithms 
+and Randomness Center and the Algorithms, Combinatorics, and Optimization program at Georgia Tech each year.
+
+* Poster on \emph{Reusing Combinatorial Structure: Faster Iterative Projections over Submodular 
+  Base Polytopes} received honorable mention for best poster at Mixed Integer Programming (MIP) 2022. Joint work with Hassan Mortagy and Swati Gupta.
