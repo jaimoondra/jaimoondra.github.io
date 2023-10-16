@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in algorithms, combinatorics, and optimization (ACO) at the School of Computer Science, Georgia Tech. My interests include discrete algorithms, combinatorial optimization, combinatorics, and quantum computing.
+I am a PhD student in algorithms, combinatorics, and optimization (ACO) at the School of Computer Science, Georgia Tech. I am fortunate enough to be advised by Dr. Swati Gupta and Dr. Mohit Singh. My research interests include combinatorial optimization, algorithmic fairness, and quantum computing.
 
 ## Research updates
 
