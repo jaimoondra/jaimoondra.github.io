@@ -4,7 +4,6 @@ collection: publications
 permalink: /publication/socially-fair-and-hierarchical-facility-location-problems
 excerpt: ''
 date: 2023-11-01
-paperurl: 'https://arxiv.org/abs/2211.14873'
 citation: 'Swati Gupta, Jai Moondra, Mohit Singh. (November 2023). 
 &quot;
 Existence and approximations for fair solution portfolios.&quot;'
