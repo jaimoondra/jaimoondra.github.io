@@ -1,5 +1,5 @@
 ---
-title: "Which Lp norms is the fairest? Approximations for fair facility location across all \"p\""
+title: "Which Lp norm is the fairest? Approximations for fair facility location across all \"p\""
 collection: publications
 permalink: /publication/socially-fair-and-hierarchical-facility-location-problems
 excerpt: ''
