@@ -1,14 +1,14 @@
 ---
-title: "Socially Fair and Hierarchical Facility Location Problems"
+title: "Which Lp norms is the fairest? Approximations for fair facility location across all \"p\""
 collection: publications
 permalink: /publication/socially-fair-and-hierarchical-facility-location-problems
 excerpt: ''
-date: 2022-11-27
+date: 2023-05-19
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2211.14873'
-citation: 'Swati Gupta, Jai Moondra, Mohit Singh. (November 2022). 
+citation: 'Swati Gupta, Jai Moondra, Mohit Singh. (July 2023). 
 &quot;
-Socially Fair and Hierarchical Facility Location Problems.&quot; <i>arXiv</i>'
+Which Lp norms is the fairest? Approximations for fair facility location across all \"p\".&quot; <i>In Processings of the </i>'
 ---
 Abstract: The classic facility location problem seeks to open a set of facilities to minimize 
 the cost of opening the chosen facilities and the total cost of connecting all the clients to 

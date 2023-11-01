@@ -17,16 +17,19 @@ Education
 Work experience
 ======
 
-* Paper reviews for conferences including Integer Programming and Combinatorial Optimization (IPCO) 2022, Innovations in Theoretical Computer Science (ITCS) 2022, and Health Care Management Science (HCMS) 2022.
+* Paper reviews for conferences including APPROX 2023, Conference on Applied & Computational Discrete Algorithms (ACDA) 2023, Integer Programming and Combinatorial Optimization (IPCO) 2022, Innovations in Theoretical Computer Science (ITCS) 2022, and Health  Care Management Science (HCMS) 2022.
 
 * Research Assistant at Georgia Institute of Technology (January 2021 - present)
 
-* Summer 2018: Research Assistant
-  * Duke University
-  * Supervisor: Dr. Debmalya Panigrahi, Dr. Rong Ge
+* Summer 2018: Research Assistant at Duke University Computer Science Department
+  * Advisors: Dr. Debmalya Panigrahi, Dr. Rong Ge
 
 Talks
 ======
+
+* <i>Portfolio Approximations and Fairness in Combinatorial Optimization</i> at INFORMS 2023
+
+* <i>Which $L_p$ norm is the fairest? Approximations for fair facility location across all `$p$' </i> at EC 2023
 
 * <i>Fairness Objectives in Facility Location Problems</i> at INFORMS 2022
 

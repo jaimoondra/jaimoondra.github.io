@@ -8,9 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in algorithms, combinatorics, and optimization (ACO) at the School of Computer Science, Georgia Tech. I am fortunate enough to be advised by Dr. Swati Gupta and Dr. Mohit Singh. My research interests include combinatorial optimization, algorithmic fairness, and quantum computing.
+I am a PhD student in algorithms, combinatorics, and optimization (ACO) at the School of Computer Science, Georgia Tech. I am fortunate to be advised by Dr. Swati Gupta and Dr. Mohit Singh. My research interests include combinatorial optimization, algorithmic fairness, and quantum computing.
 
 ## Research updates
+
+
+#### September 2023
+
+Paper <i>Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths</i> has been published in Quantum. Find the paper [here](https://arxiv.org/abs/2112.11354). Joint work with Joel Rajakumar, Bryan Gard, Creston Herold, and Swati Gupta.
+
+#### July 2023
+
+Paper <i>Which $L_p$ norm is the fairest? Approximations for fair facility location across all 'p'</i> has been published in Economics and Computation (EC) 2023. Find the paper [here](https://arxiv.org/abs/2211.14873). Joint work with Swati Gupta and Mohit Singh.
 
 #### July 2022
 
@@ -18,7 +27,7 @@ Paper <i>Generating Target Graph Couplings for QAOA from Native Quantum Hardware
 
 #### May 2022
 
-Poster on <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> is runner-up at MIP 2022 poster competition. Find the paper [here](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes). Joint work with Hassan Mortagy and Swati Gupta.
+Poster on <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> is runner-up at MIP 2022 poster competition. Find the paper [here](https://arxiv.org/abs/2106.11943). Joint work with Hassan Mortagy and Swati Gupta.
 
 #### February 2022
 
@@ -26,7 +35,7 @@ Paper <i>New Proofs for the Disjunctive Rado Number of the Equations $x_1 - x_2 
 
 #### December 2021
 
-Paper <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> has been published in NeurIPS 2021. Find the paper [here](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes). Joint work with Hassan Mortagy and Swati Gupta.
+Paper <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> has been published in NeurIPS 2021. Find the paper [here](https://arxiv.org/abs/2106.11943). Joint work with Hassan Mortagy and Swati Gupta.
 
 <!---
 [//]: # (This is the front page of a website that is powered by the [academicpages template]&#40;https://github.com/academicpages/academicpages.github.io&#41; and hosted on GitHub pages. [GitHub pages]&#40;https://pages.github.com&#41; is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme]&#40;https://mmistakes.github.io/minimal-mistakes/&#41; created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository]&#40;https://github.com/academicpages/academicpages.github.io&#41; right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com]&#40;http://stuartgeiger.com&#41;, which uses [this Github repository]&#40;https://github.com/staeiou/staeiou.github.io&#41;.)
