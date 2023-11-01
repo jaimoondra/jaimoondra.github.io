@@ -8,7 +8,7 @@ venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2211.14873'
 citation: 'Swati Gupta, Jai Moondra, Mohit Singh. (July 2023). 
 &quot;
-Which Lp norms is the fairest? Approximations for fair facility location across all \"p\".&quot; <i>In Processings of the </i>'
+Which Lp norms is the fairest? Approximations for fair facility location across all \"p\".&quot; <i>In Proceedings of the 24th ACM Conference on Economics and Computation (EC) 2023</i>'
 ---
 Abstract: The classic facility location problem seeks to open a set of facilities to minimize 
 the cost of opening the chosen facilities and the total cost of connecting all the clients to 
