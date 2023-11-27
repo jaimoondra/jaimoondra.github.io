@@ -1,14 +1,15 @@
 ---
-title: "Balancing Notions of Equity: Approximation Algorithms for Fair Portfolio of Solutions in Combinatorial Optimization"
+title: "Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths"
 collection: publications
-permalink: /publication/socially-fair-and-hierarchical-facility-location-problems
+permalink: /publication/warm-started-qaoa
 excerpt: ''
-date: 2023-11-01
-venue: 'arXiv, under submission to STOC 2024'
-paperurl: 'https://arxiv.org/abs/2311.03230'
-citation: 'Swati Gupta, Jai Moondra, Mohit Singh. (November 2023). 
-&quot;Balancing Notions of Equity: Approximation Algorithms for Fair Portfolio of Solutions in Combinatorial Optimization&quot;'
+date: 2023-09-29
+venue: 'Quantum'
+paperurl: 'https://arxiv.org/abs/2112.11354'
+citation: 'Reuben Tate, Jai Moondra, Bryan Gard, Greg Mohler, Swati Gupta. (September 2023). 
+&quot;Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson’s Max-Cut at Low Circuit Depths&quot;'
 ---
-Abstract: Inspired by equity considerations, we consider top-$k$ norm, ordered norm, and symmetric monotonic norm objectives for various combinatorial optimization problems. Top-$k$ norms and ordered norms have natural interpretations in terms of minimizing the impact on individuals bearing largest costs. To model decision-making with multiple equity criteria, we study the notion of portfolios of solutions with the property that each norm or equity criteria has an approximately optimal solution in this portfolio. We attempt to characterize portfolios by their sizes and approximation factor guarantees for various combinatorial problems. For a given problem, we investigate whether (1) there exists a single solution that is approximately optimal for all norms, (2) there exists a small approximately optimal portfolio of size larger than 1, (3) there exist polynomial time algorithms to find these small portfolios. We study an algorithmic framework to obtain single solutions that are approximately optimal for all norms. We show the existence of such a solution for problems such as $k$-clustering, ordered set cover, scheduling for job completion time minimization, and scheduling for machine load minimization on identical machines. We also give efficient algorithms to find these solutions in most cases, except set cover where we show there is a gap in terms of computational complexity. Our work improves upon the best-known approximation factor across all norms for a single solution in $k$-clustering. For uncapacitated facility location and scheduling for machine load minimization with identical jobs, we obtain logarithmic sized portfolios, also providing a matching lower bound in the latter case. Our work results in new open combinatorial questions, which might be of independent interest.
+Abstract: We generalize the Quantum Approximate Optimization Algorithm (QAOA) of Farhi et al. (2014) to allow for arbitrary separable initial states with corresponding mixers such that the starting state is the most excited state of the mixing Hamiltonian. We demonstrate this version of QAOA, which we call QAOA-warmest, by simulating Max-Cut on weighted graphs. We initialize the starting state as a warm-start using 2 and 3-dimensional approximations obtained using randomized projections of solutions to Max-Cut's semi-definite program, and define a warm-start dependent custom mixer. We show that these warm-starts initialize the QAOA circuit with constant-factor approximations of 0.658 for 2-dimensional and 0.585 for 3-dimensional warm-starts for graphs with non-negative edge weights, improving upon previously known trivial (i.e., 0.5 for standard initialization) worst-case bounds at p = 0. These factors in fact lower bound the approximation achieved for Max-Cut at higher circuit depths, since we also show that QAOA-warmest with any separable initial state converges to Max-Cut under the adiabatic limit as p → ∞. However, the choice of warm-starts significantly impacts the rate of convergence to Max-Cut, and we show empirically that our warm-starts achieve a faster convergence compared to existing approaches. Additionally, our numerical simulations show higher quality cuts compared to standard QAOA, the classical Goemans-Williamson algorithm, and a warm-started QAOA without custom mixers for an instance library of 1148 graphs (upto 11 nodes) and depth p=8. We further show that QAOA-warmest outperforms the standard QAOA of Farhi et al. in experiments on current IBM-Q and Quantinuum hardware.
 
-[arXiv](https://arxiv.org/abs/2311.03230)
+[arXiv](https://arxiv.org/abs/2112.11354)
+[Quantum](https://quantum-journal.org/papers/q-2023-09-26-1121/)
