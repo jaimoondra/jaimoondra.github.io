@@ -15,7 +15,7 @@ I am a PhD student in algorithms, combinatorics, and optimization (ACO) at the S
 
 #### September 2023
 
-Paper <i>Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths</i> has been published in Quantum. Find the paper [here](https://arxiv.org/abs/2112.11354). Joint work with Joel Rajakumar, Bryan Gard, Creston Herold, and Swati Gupta.
+Paper <i>Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths</i> has been published in Quantum. Find the paper [here](https://arxiv.org/abs/2112.11354). Joint work with Reuben Tate, Bryan Gard, Greg Mohler, and Swati Gupta.
 
 #### July 2023
 
