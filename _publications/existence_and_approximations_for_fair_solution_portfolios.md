@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/socially-fair-and-hierarchical-facility-location-problems
 excerpt: ''
 date: 2023-11-01
-venue: 'arXiv, under submission to STOC 2024'
+venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2311.03230'
 citation: 'Swati Gupta, Jai Moondra, Mohit Singh. (November 2023). 
 &quot;Balancing Notions of Equity: Approximation Algorithms for Fair Portfolio of Solutions in Combinatorial Optimization&quot;'
