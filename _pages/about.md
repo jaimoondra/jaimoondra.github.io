@@ -12,6 +12,14 @@ I am a PhD student in algorithms, combinatorics, and optimization (ACO) at the S
 
 ## Research updates
 
+#### May 2024
+
+We have released an [online tool](https://usa-medical-deserts.streamlit.app/) to visualize economic and racial disparities 
+in the location of healthcare facilities in the US. The tool is based on our recent [paper](https://arxiv.org/abs/2211.14873) on fair facility location.
+
+#### May 2024
+
+I am interning at Amazon Research in Bellevue, Washington this summer with the Supply Chains Optimization Technology team.
 
 #### September 2023
 
