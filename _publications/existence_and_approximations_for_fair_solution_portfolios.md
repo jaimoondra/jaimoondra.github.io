@@ -1,7 +1,7 @@
 ---
 title: "Balancing Notions of Equity: Approximation Algorithms for Fair Portfolio of Solutions in Combinatorial Optimization"
 collection: publications
-permalink: /publication/socially-fair-and-hierarchical-facility-location-problems
+permalink: /publication/existence-and-approximations-for-fair-solution-portfolios
 excerpt: ''
 date: 2023-11-01
 venue: 'arXiv'
