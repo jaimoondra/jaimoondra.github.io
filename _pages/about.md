@@ -12,10 +12,14 @@ I am a PhD student in algorithms, combinatorics, and optimization (ACO) at the S
 
 ## Research updates
 
+#### June 2024
+
+Our paper on using graph sparsification and decomposition for noise reduction in QAOA has been published in arXiv. Find the paper [here](https://arxiv.org/abs/2406.14330). Joint work with Phil Lotshaw, Greg Mohler, and Swati Gupta.
+
 #### May 2024
 
-We have released an [online tool](https://usa-medical-deserts.streamlit.app/) to visualize economic and racial disparities 
-in the location of healthcare facilities in the US. The tool is based on our recent [paper](https://arxiv.org/abs/2211.14873) on fair facility location.
+We have released an [online tool](https://usa-medical-deserts.streamlit.app/) to visualize economic and racial disparities in the location of healthcare facilities in the US.  
+The tool is based on our [paper](https://arxiv.org/abs/2211.14873) on fair facility location.
 
 #### May 2024
 
