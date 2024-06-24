@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/sparsification-and-decomposition-qaoa
 excerpt: ''
 date: 2024-06-20
-venue: 'arXiv
+venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2406.14330'
 citation: 'Jai Moondra, Phil Lotshaw, Greg Mohler, Swati Gupta. (June 2024). 
 &quot;
