@@ -14,7 +14,7 @@ I am a PhD student in algorithms, combinatorics, and optimization (ACO) at the S
 
 #### June 2024
 
-Our paper on using graph sparsification and decomposition for noise reduction in QAOA has been published in arXiv. Find the paper [here](https://arxiv.org/abs/2406.14330). Joint work with Phil Lotshaw, Greg Mohler, and Swati Gupta.
+Our paper on using graph sparsification and decomposition for noise reduction in QAOA has been published in arXiv. Find the paper [here](https://arxiv.org/abs/2406.14330). Joint work with Philip C. Lotshaw, Greg Mohler, and Swati Gupta.
 
 #### May 2024
 

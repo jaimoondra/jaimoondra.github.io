@@ -6,7 +6,7 @@ excerpt: ''
 date: 2024-06-20
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2406.14330'
-citation: 'Jai Moondra, Phil Lotshaw, Greg Mohler, Swati Gupta. (June 2024). 
+citation: 'Jai Moondra, Philip C. Lotshaw, Greg Mohler, Swati Gupta. (June 2024). 
 &quot;
 Promise of Graph Sparsification and Decomposition for Noise Reduction in QAOA: Analysis for Trapped-Ion Compilations .&quot; <i>In arXiv</i>'
 ---
