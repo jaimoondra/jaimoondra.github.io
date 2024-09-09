@@ -12,6 +12,10 @@ I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the S
 
 ## Research updates
 
+#### September 2024
+
+I am visiting my advisor Dr. Swati Gupta at MIT's Sloan School of Management this Fall!
+
 #### June 2024
 
 Our paper on using graph sparsification and decomposition for noise reduction in QAOA has been published in arXiv. Find the paper [here](https://arxiv.org/abs/2406.14330). Joint work with Philip C. Lotshaw, Greg Mohler, and Swati Gupta.
@@ -23,31 +27,31 @@ The tool is based on our [paper](https://arxiv.org/abs/2211.14873) on fair facil
 
 #### May 2024
 
-I am interning at Amazon Research in Bellevue, Washington this summer with the Supply Chains Optimization Technology team.
+I am interning at Amazon Research in Bellevue, Washington this summer with the Supply Chains Optimization Technology team!
 
 #### September 2023
 
-Our paper <i>Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths</i> has been published in Quantum. Find the paper [here](https://arxiv.org/abs/2112.11354). Joint work with Reuben Tate, Bryan Gard, Greg Mohler, and Swati Gupta.
+Our paper <i>Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths</i> has been published in Quantum! Find the paper [here](https://arxiv.org/abs/2112.11354). Joint work with Reuben Tate, Bryan Gard, Greg Mohler, and Swati Gupta.
 
 #### July 2023
 
-Our paper <i>Which $L_p$ norm is the fairest? Approximations for fair facility location across all 'p'</i> has been published in Economics and Computation (EC) 2023. Find the paper [here](https://arxiv.org/abs/2211.14873). Joint work with Swati Gupta and Mohit Singh.
+Our paper <i>Which $L_p$ norm is the fairest? Approximations for fair facility location across all 'p'</i> has been published in Economics and Computation (EC) 2023! Find the paper [here](https://arxiv.org/abs/2211.14873). Joint work with Swati Gupta and Mohit Singh.
 
 #### July 2022
 
-Our paper <i>Generating Target Graph Couplings for QAOA from Native Quantum Hardware Couplings</i> has been accepted for publication in Physical Review A. Find the paper [here](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings). Joint work with Joel Rajakumar, Bryan Gard, Creston Herold, and Swati Gupta.
+Our paper <i>Generating Target Graph Couplings for QAOA from Native Quantum Hardware Couplings</i> has been accepted for publication in Physical Review A! Find the paper [here](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings). Joint work with Joel Rajakumar, Bryan Gard, Creston Herold, and Swati Gupta.
 
 #### May 2022
 
-Our poster on <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> is runner-up at MIP 2022 poster competition. Find the paper [here](https://arxiv.org/abs/2106.11943). Joint work with Hassan Mortagy and Swati Gupta.
+Our poster on <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> is runner-up at MIP 2022 poster competition! Find the paper [here](https://arxiv.org/abs/2106.11943). Joint work with Hassan Mortagy and Swati Gupta.
 
 #### February 2022
 
-Our paper <i>New Proofs for the Disjunctive Rado Number of the Equations $x_1 - x_2 = a$ and $x_1 - x_2 = b$</i> has been published in Graphs and Combinatorics. Find the paper [here](https://jaimoondra.github.io/publication/new-proofs-for-the-disjunctive-rado-number-of-the-2-equations). Joint work with A. Dileep and Amitabha Tripathi.
+Our paper <i>New Proofs for the Disjunctive Rado Number of the Equations $x_1 - x_2 = a$ and $x_1 - x_2 = b$</i> has been published in Graphs and Combinatorics! Find the paper [here](https://jaimoondra.github.io/publication/new-proofs-for-the-disjunctive-rado-number-of-the-2-equations). Joint work with A. Dileep and Amitabha Tripathi.
 
 #### December 2021
 
-Our paper <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> has been published in NeurIPS 2021. Find the paper [here](https://arxiv.org/abs/2106.11943). Joint work with Hassan Mortagy and Swati Gupta.
+Our paper <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> has been published in NeurIPS 2021! Find the paper [here](https://arxiv.org/abs/2106.11943). Joint work with Hassan Mortagy and Swati Gupta.
 
 <!---
 [//]: # (This is the front page of a website that is powered by the [academicpages template]&#40;https://github.com/academicpages/academicpages.github.io&#41; and hosted on GitHub pages. [GitHub pages]&#40;https://pages.github.com&#41; is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme]&#40;https://mmistakes.github.io/minimal-mistakes/&#41; created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository]&#40;https://github.com/academicpages/academicpages.github.io&#41; right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com]&#40;http://stuartgeiger.com&#41;, which uses [this Github repository]&#40;https://github.com/staeiou/staeiou.github.io&#41;.)
