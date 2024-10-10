@@ -12,9 +12,13 @@ I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the S
 
 ## Research updates
 
+#### October 2024
+
+Our paper on portfolios for fairness in combinatorial optimization has been accepted at SODA 2025! Find the paper [here](https://arxiv.org/abs/2311.03230).
+
 #### September 2024
 
-I am visiting my advisor Dr. Swati Gupta at MIT's Sloan School of Management this Fall!
+I am visiting my advisor Dr. Swati Gupta's lab at MIT's Sloan School of Management this Fall!
 
 #### June 2024
 
