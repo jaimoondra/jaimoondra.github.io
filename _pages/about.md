@@ -14,7 +14,7 @@ I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the S
 
 #### October 2024
 
-Our paper on portfolios for fairness in combinatorial optimization has been accepted at SODA 2025! Find the paper [here](https://arxiv.org/abs/2311.03230).
+Our paper on portfolios for fairness in combinatorial optimization has been accepted at SODA 2025! Joint work with Swati Gupta and Mohit Singh. Find the paper [here](https://arxiv.org/abs/2311.03230).
 
 #### September 2024
 
