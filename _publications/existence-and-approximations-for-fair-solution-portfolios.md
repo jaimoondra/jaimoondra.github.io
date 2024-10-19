@@ -1,14 +1,14 @@
 ---
-title: "Balancing Notions of Equity: Approximation Algorithms for Fair Portfolio of Solutions in Combinatorial Optimization"
+title: "Balancing Notions of Equity: Trade-offs Between Fair Portfolio Sizes and Achievable Guarantees"
 collection: publications
 permalink: /publication/existence-and-approximations-for-fair-solution-portfolios
 excerpt: ''
-date: 2024-07-05
-venue: 'arXiv (under submission to SODA 2025)'
+date: 2024-09-23
+venue: 'SODA 2025'
 paperurl: 'https://arxiv.org/abs/2311.03230'
-citation: 'Swati Gupta, Jai Moondra, Mohit Singh. (July 2024). 
-&quot;Balancing Notions of Equity: Approximation Algorithms for Fair Portfolio of Solutions in Combinatorial Optimization&quot;'
+citation: 'Swati Gupta, Jai Moondra, Mohit Singh. (September 2024). 
+&quot;Balancing Notions of Equity: Trade-offs Between Fair Portfolio Sizes and Achievable Guarantees&quot;'
 ---
-Abstract: Inspired by equity considerations, we consider top-$k$ norm, ordered norm, and symmetric monotonic norm objectives for various combinatorial optimization problems. Top-$k$ norms and ordered norms have natural interpretations in terms of minimizing the impact on individuals bearing largest costs. To model decision-making with multiple equity criteria, we study the notion of portfolios of solutions with the property that each norm or equity criteria has an approximately optimal solution in this portfolio. We attempt to characterize portfolios by their sizes and approximation factor guarantees for various combinatorial problems. For a given problem, we investigate whether (1) there exists a single solution that is approximately optimal for all norms, (2) there exists a small approximately optimal portfolio of size larger than 1, (3) there exist polynomial time algorithms to find these small portfolios. We study an algorithmic framework to obtain single solutions that are approximately optimal for all norms. We show the existence of such a solution for problems such as $k$-clustering, ordered set cover, scheduling for job completion time minimization, and scheduling for machine load minimization on identical machines. We also give efficient algorithms to find these solutions in most cases, except set cover where we show there is a gap in terms of computational complexity. Our work improves upon the best-known approximation factor across all norms for a single solution in $k$-clustering. For uncapacitated facility location and scheduling for machine load minimization with identical jobs, we obtain logarithmic sized portfolios, also providing a matching lower bound in the latter case. Our work results in new open combinatorial questions, which might be of independent interest.
+Abstract: Motivated by fairness concerns, we study the `portfolio problem': given an optimization problem with set D of feasible solutions, a class $\mathbf{C}$ of fairness objective functions on $D$, and an approximation factor $\alpha \ge 1$, a set $X \subseteq D$ of feasible solutions is an $\alpha$-approximate portfolio if for each objective $f \in \mathbf{C}$, there is an $\alpha$-approximation for $f$ in $X$. Choosing the classes of top-$k$ norms, ordered norms, and symmetric monotonic norms as our equity objectives, we study the trade-off between the size $|X|$ of the portfolio and its approximation factor α for various combinatorial problems. For the problem of scheduling identical jobs on unidentical machines, we characterize this trade-off for ordered norms and give an exponential improvement in size for symmetric monotonic norms over the general upper bound. We generalize this result as the OrderAndCount framework that obtains an exponential improvement in portfolio sizes for covering polyhedra with a constant number of constraints. Our framework is based on a novel primal-dual counting technique that may be of independent interest. We also introduce a general IterativeOrdering framework for simultaneous approximations or portfolios of size 1 for symmetric monotonic norms, which generalizes and extends existing results for problems such as scheduling, $k$-clustering, set cover, and routing.
 
 [arXiv](https://arxiv.org/abs/2311.03230)
