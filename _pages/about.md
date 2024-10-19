@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech. I am fortunate to be advised by Dr. Swati Gupta and Dr. Mohit Singh. My research interests include the various intersections of discrete optimization, algorithmic fairness, machine learning, and quantum computing.
+I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech. I am fortunate to be advised by [Dr. Swati Gupta](https://swatigupta.tech/) and [Dr. Mohit Singh](https://www2.isye.gatech.edu/~msingh94/). My research interests include discrete optimization and its applications to algorithmic fairness, machine learning, and quantum computing.
 
 ## Research updates
 
@@ -18,20 +18,19 @@ Our paper on portfolios for fairness in combinatorial optimization has been acce
 
 #### September 2024
 
-I am visiting my advisor Dr. Swati Gupta's lab at MIT's Sloan School of Management this Fall!
+I am visiting Dr. Swati Gupta's lab at MIT Sloan School of Management this Fall!
 
 #### June 2024
 
-Our paper on using graph sparsification and decomposition for noise reduction in QAOA has been published in arXiv. Find the paper [here](https://arxiv.org/abs/2406.14330). Joint work with Philip C. Lotshaw, Greg Mohler, and Swati Gupta.
+Our paper on using graph sparsification and decomposition for noise reduction in QAOA is now online [here](https://arxiv.org/abs/2406.14330). Joint work with Philip C. Lotshaw, Greg Mohler, and Swati Gupta.
 
 #### May 2024
 
-We have released an [online tool](https://usa-medical-deserts.streamlit.app/) to visualize economic and racial disparities in the location of healthcare facilities in the US.  
-The tool is based on our [paper](https://arxiv.org/abs/2211.14873) on fair facility location.
+Our [web tool](https://usa-medical-deserts.streamlit.app/) to visualize and mitigate 'medical deserts' the US is now online. Based on our [paper](https://arxiv.org/abs/2211.14873) on fair facility location.
 
 #### May 2024
 
-I am interning at Amazon Research in Bellevue, Washington this summer with the Supply Chains Optimization Technology team!
+I am interning at Amazon Research in Bellevue, Washington this summer with the Supply Chains Optimization Technology team.
 
 #### September 2023
 
