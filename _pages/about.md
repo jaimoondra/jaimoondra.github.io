@@ -26,7 +26,7 @@ Our paper on using graph sparsification and decomposition for noise reduction in
 
 #### May 2024
 
-Our [web tool](https://usa-medical-deserts.streamlit.app/) to visualize and mitigate 'medical deserts' the US is now online. Based on our [paper](https://arxiv.org/abs/2211.14873) on fair facility location.
+Our [web tool](https://usa-medical-deserts.streamlit.app/) to visualize and mitigate 'medical deserts' the US is now online. Based on our [paper](https://arxiv.org/abs/2211.14873) on fair facility location from EC 2023. Joint work with Swati Gupta and Mohit Singh.
 
 #### May 2024
 
@@ -46,7 +46,7 @@ Our paper <i>Generating Target Graph Couplings for QAOA from Native Quantum Hard
 
 #### May 2022
 
-Our poster on <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> is runner-up at MIP 2022 poster competition! Find the paper [here](https://arxiv.org/abs/2106.11943). Joint work with Hassan Mortagy and Swati Gupta.
+Our poster on <i>Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes</i> is runner-up at MIP 2022 poster competition! Find the paper from NeurIPS 2021 [here](https://arxiv.org/abs/2106.11943). Joint work with Hassan Mortagy and Swati Gupta.
 
 #### February 2022
 
