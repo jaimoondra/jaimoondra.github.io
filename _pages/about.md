@@ -17,8 +17,8 @@ My research interests include discrete optimization and its applications to algo
 have practical applications
 [\[4\]](https://usa-medical-deserts.streamlit.app/), 
 or both
-[\[5\]](https://jaimoondra.github.io/publication/which-lp-norm-is-the-fairest)
-[\[6\]](https://jaimoondra.github.io/publication/reusing-combinatorial-structure)
+[\[5\]](https://jaimoondra.github.io/publication/socially-fair-and-hierarchical-facility-location-problems)
+[\[6\]](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes)
 [\[7\]](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings).
 
 I am currently on the job market for post-doc positions for Spring 2026/Fall 2025.
