@@ -11,9 +11,9 @@ redirect_from:
 I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech, and currently visiting MIT. I am fortunate to be advised by [Dr. Swati Gupta](https://swatigupta.tech/) and [Dr. Mohit Singh](https://www2.isye.gatech.edu/~msingh94/).
 
 My research interests include discrete optimization and its applications to algorithmic fairness, machine learning, and quantum computing. I like to work on problems that are theoretically interesting 
-[\[1\]](https://jaimoondra.github.io/publication/existence-and-approximations-for-fair-solution-portfolios) 
-[\[2\]](https://jaimoondra.github.io/publication/multi-purpose-routing-new-perspectives-and-algorithms)
-[\[3\]](https://jaimoondra.github.io/publication/warm-started-qaoa), 
+[\[1\]](https://jaimoondra.github.io/publication/existence-and-approximations-for-fair-solution-portfolios)
+[\[2\]](https://jaimoondra.github.io/publication/warm-started-qaoa)
+[\[3\]](https://jaimoondra.github.io/publication/multi-purpose-routing-new-perspectives-and-algorithms),
 have practical applications
 [\[4\]](https://usa-medical-deserts.streamlit.app/), 
 or both
