@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings
 excerpt: ''
 date: 2022-07-21
+coauthors: 'Joel Rajakumar, Bryan Gard, Swati Gupta, and Creston D. Herold'
 venue: 'Physical Review A'
 paperurl: 'https://arxiv.org/abs/2011.08165'
 citation: 'Joel Rajakumar, Jai Moondra, Bryan Gard, Swati Gupta, Creston D. Herold. (August 2022). &quot;Generating Target Graph Couplings for QAOA from Native Quantum Hardware Couplings.&quot; <i>Physical Review A</i> 106.2'

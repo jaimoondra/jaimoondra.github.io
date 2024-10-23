@@ -17,9 +17,38 @@ Education
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+
+<h2>Discrete Optimization</h2>
+
+<ul>{% for post in site.publicationsDiscreteOptimization reversed %}
+    {% include publication-single.html %}
   {% endfor %}</ul>
+
+<h2>Machine Learning</h2>
+
+<ul>{% for post in site.publicationsMachineLearning reversed %}
+    {% include publication-single.html %}
+  {% endfor %}</ul>
+
+<h2>Quantum Computing</h2>
+
+<ul>{% for post in site.publicationsQuantumComputing reversed %}
+    {% include publication-single.html %}
+  {% endfor %}</ul>
+
+<h2>Combinatorics</h2>
+
+<ul>{% for post in site.publicationsCombinatorics reversed %}
+    {% include publication-single.html %}
+  {% endfor %}</ul>
+
+[//]: # ()
+[//]: # ()
+[//]: # (  <ul>{% for post in site.publications reversed %})
+
+[//]: # (    {% include archive-single-cv.html %})
+
+[//]: # (  {% endfor %}</ul>)
 
 Other work experience
 ======
@@ -29,6 +58,8 @@ Other work experience
 
 * Paper reviews for conferences and journals including FOCS, SODA, ITCS, IPCO, APPROX, ACDA, Math Programming, Operations Research, and SIDMA.
 
+* Session co-chair on Discrete Optimization with Swati Gupta at INFORMS 2023.
+
 * Research Assistant at Georgia Institute of Technology (January 2021 - present)
 
 * Research Assistant at Duke University Computer Science Department, Summer 2018
@@ -36,6 +67,8 @@ Other work experience
 
 Talks
 ======
+
+* <i>Bridging Theory and Practice for Balancing Notions of Equity with Small Portfolios</i> at INFORMS 2024
 
 * <i>Portfolio Approximations and Fairness in Combinatorial Optimization</i> at INFORMS 2023
 

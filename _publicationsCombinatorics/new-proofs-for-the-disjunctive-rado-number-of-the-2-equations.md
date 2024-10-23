@@ -5,6 +5,7 @@ permalink: /publication/new-proofs-for-the-disjunctive-rado-number-of-the-2-equa
 excerpt: ''
 date: 2022-02-01
 venue: 'Graphs and Combinatorics'
+coauthors: 'A. Dileep and Amitabha Tripathi'
 paperurl: 'https://link.springer.com/article/10.1007/s00373-021-02400-y'
 citation: 'A. Dileep, Jai Moondra, Amitabha Tripathi. (2022). &quot;New Proofs for the Disjunctive Rado Number of the Equations $x_1 - x_2 = a$ and $x_1 - x_2 = b$.&quot; <i>Graphs and Combinatorics</i> 38:38.'
 ---

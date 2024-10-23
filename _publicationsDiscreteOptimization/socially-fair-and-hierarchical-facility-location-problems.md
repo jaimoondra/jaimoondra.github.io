@@ -5,6 +5,7 @@ permalink: /publication/socially-fair-and-hierarchical-facility-location-problem
 excerpt: ''
 date: 2023-05-19
 venue: 'Economics and Computation (EC)'
+coauthors: 'Swati Gupta and Mohit Singh'
 paperurl: 'https://arxiv.org/abs/2211.14873'
 citation: 'Swati Gupta, Jai Moondra, Mohit Singh. (July 2023). 
 &quot;

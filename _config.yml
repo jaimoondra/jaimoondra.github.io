@@ -180,6 +180,18 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  publicationsDiscreteOptimization:
+    output: true
+    permalink: /:collection/:path/
+  publicationsMachineLearning:
+    output: true
+    permalink: /:collection/:path/
+  publicationsQuantumComputing:
+    output: true
+    permalink: /:collection/:path/
+  publicationsCombinatorics:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -221,6 +233,42 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publicationsDiscreteOptimization
+  - scope:
+      path: ""
+      type: publicationsDiscreteOptimization
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publicationsMachineLearning
+  - scope:
+      path: ""
+      type: publicationsMachineLearning
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publicationsQuantumComputing
+  - scope:
+      path: ""
+      type: publicationsQuantumComputing
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publicationsCombinatorics
+  - scope:
+      path: ""
+      type: publicationsCombinatorics
     values:
       layout: single
       author_profile: true

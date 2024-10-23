@@ -5,6 +5,7 @@ permalink: /publication/multi-purpose-routing-new-perspectives-and-algorithms
 excerpt: ''
 date: 2022-08-08
 venue: 'arXiv'
+coauthors: 'Majid Farhadi, Prasad Tetali, and Alejandro Toriello'
 paperurl: 'https://arxiv.org/abs/2208.04410'
 citation: 'Majid Farhadi, Jai Moondra, Prasad Tetali, Alejandro Toriello. (2022). &quot;Multi Purpose Routing: New Perspectives and Approximation Algorithms.&quot; <i>arXiv</i>.'
 ---

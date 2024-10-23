@@ -1,10 +1,11 @@
 ---
-title: "Exact and approximate results on the least size of a graph with a given degree set"
+title: "Exact and Approximate Results on the Least Size of a Graph with a Given Degree Set"
 collection: publications
 permalink: /publication/on-the-least-size-of-a-graph-with-a-given-degree-set-II
 excerpt: ''
 date: 2020-09-22
 venue: 'Discrete Applied Mathematics'
+coauthors: 'Aditya Sahdev and Amitabha Tripathi'
 paperurl: 'https://arxiv.org/abs/2009.10294'
 citation: 'Jai Moondra, Aditya Sahdev, Amitabha Tripathi. (2023). &quot;Exact and approximate results on the least size of a graph with a given degree set.&quot; <i>arXiv</i>.'
 ---

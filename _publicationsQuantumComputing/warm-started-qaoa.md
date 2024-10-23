@@ -5,6 +5,7 @@ permalink: /publication/warm-started-qaoa
 excerpt: ''
 date: 2023-09-29
 venue: 'Quantum'
+coauthors: 'Reuben Tate, Bryan Gard, Greg Mohler, and Swati Gupta'
 paperurl: 'https://arxiv.org/abs/2112.11354'
 citation: 'Reuben Tate, Jai Moondra, Bryan Gard, Greg Mohler, Swati Gupta. (September 2023). 
 &quot;Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson’s Max-Cut at Low Circuit Depths&quot;'
