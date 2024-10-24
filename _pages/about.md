@@ -1,13 +1,3 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4DFEX7JZJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-K4DFEX7JZJ');
-</script>
-
 ---
 permalink: /
 title: ""
@@ -17,6 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4DFEX7JZJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K4DFEX7JZJ');
+</script>
 
 I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech, and currently visiting MIT Sloan School of Management. I am fortunate to be advised by [Dr. Swati Gupta](https://swatigupta.tech/) and [Dr. Mohit Singh](https://www2.isye.gatech.edu/~msingh94/).
 
