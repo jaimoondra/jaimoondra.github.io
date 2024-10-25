@@ -20,14 +20,14 @@ redirect_from:
 
 I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech, and currently visiting MIT Sloan School of Management. I am fortunate to be advised by [Dr. Swati Gupta](https://swatigupta.tech/) and [Dr. Mohit Singh](https://www2.isye.gatech.edu/~msingh94/).
 
-My research interests include discrete optimization and its applications to algorithmic fairness [\[1\]](https://jaimoondra.github.io/publication/existence-and-approximations-for-fair-solution-portfolios)
-[\[2\]](https://jaimoondra.github.io/publication/socially-fair-and-hierarchical-facility-location-problems)
-[\[3\]](https://usa-medical-deserts.streamlit.app/),
-machine learning [\[4\]](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes),
+My research interests include discrete optimization and its applications to algorithmic fairness [\[SODA25\]](https://jaimoondra.github.io/publication/existence-and-approximations-for-fair-solution-portfolios)
+[\[EC23\]](https://jaimoondra.github.io/publication/socially-fair-and-hierarchical-facility-location-problems)
+[\[web-tool\]](https://usa-medical-deserts.streamlit.app/),
+machine learning [\[NeurIPS21\]](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes),
 and quantum computing
-[\[5\]](https://jaimoondra.github.io/publication/warm-started-qaoa)
-[\[6\]](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings)
-[\[7\]](https://jaimoondra.github.io/publication/sparsification-and-decomposition-qaoa).
+[\[Quantum23\]](https://jaimoondra.github.io/publication/warm-started-qaoa)
+[\[PRA22\]](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings)
+[\[arXiv24\]](https://jaimoondra.github.io/publication/sparsification-and-decomposition-qaoa).
 I like to work on problems that are theoretically interesting, have practical applications, or both.
 
 I am currently on the job market for post-doc positions for Spring 2026/Fall 2025.
