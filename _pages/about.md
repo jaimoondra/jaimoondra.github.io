@@ -33,6 +33,7 @@ Much of my research seeks to understand inherent trade-offs in optimization and 
 for example, the trade-off between algorithm runtime and regret in online learning problems, or the trade-off between "fairness" and "efficiency" (or between various fairness notions) in resource allocations/machine learning problems.
 While algorithm designers often focus on optimizing for one of these objectives -- assuming that it is given *a priori* -- real-world applications often require balancing multiple (often complex) objectives. 
 I am interested in understanding the fundamental limits of such trade-offs and designing practical algorithms that allow for a flexible balance between these objectives.
+
 My research in quantum computing focuses on developing hybrid quantum-classical algorithms for combinatorial optimization problems, applying classical algorithmic techniques to improve the performance of quantum algorithms.
 
 I am currently on the job market for post-doc positions for Spring 2026/Fall 2025.
