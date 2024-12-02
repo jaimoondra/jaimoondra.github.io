@@ -29,14 +29,16 @@ and quantum computing
 [\[PRA22\]](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings)
 [\[arXiv24\]](https://jaimoondra.github.io/publication/sparsification-and-decomposition-qaoa).
 
-Much of my research seeks to understand inherent trade-offs in optimization and learning problems: 
-for example, the trade-off between algorithm runtime and regret in online learning problems, or the trade-off between "fairness" and "efficiency" (or between various fairness notions) in resource allocations/machine learning problems.
-While algorithm designers often focus on optimizing for one of these objectives -- assuming that it is given *a priori* -- real-world applications often require balancing multiple (often complex) objectives. 
+My thesis focuses on understanding the trade-offs between multiple objectives in combinational problems 
+(such as between runtime and regret in online learning, or between various fairness notions in resource allocation/machine learning problems).
+While algorithm design often focuses on optimizing for one of these objectives — assuming that it is given *a priori* — real-world applications often require balancing multiple (often complex) objectives.
 I am interested in understanding the fundamental limits of such trade-offs and designing practical algorithms that allow for a flexible balance between these objectives.
 
-My research in quantum computing focuses on developing hybrid quantum-classical algorithms for combinatorial optimization problems, applying classical algorithmic techniques to improve the performance of quantum algorithms.
+I am also interested in developing hybrid quantum-classical algorithms for optimization problems, applying classical algorithmic techniques to improve the performance of quantum algorithms.
 
 I am currently on the job market for post-doc positions for Spring 2026/Fall 2025.
+
+Outside of work, I enjoy hiking, poetry, and cooking. I am also a big cricket fan!
 
 ## Research updates
 
