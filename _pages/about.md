@@ -36,8 +36,6 @@ I am interested in understanding the fundamental limits of such trade-offs and d
 
 I am also interested in developing hybrid quantum-classical algorithms for optimization problems, applying classical algorithmic techniques to improve the performance of quantum algorithms.
 
-I am currently on the job market for post-doc positions for Spring 2026/Fall 2025.
-
 Outside of work, I enjoy hiking, poetry, and cooking. I am also a big cricket fan!
 
 ## Research updates
