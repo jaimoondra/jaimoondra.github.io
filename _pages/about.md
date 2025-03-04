@@ -18,7 +18,7 @@ redirect_from:
   gtag('config', 'G-K4DFEX7JZJ');
 </script>
 
-I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech, and currently visiting MIT Sloan School of Management. I am fortunate to be advised by [Dr. Swati Gupta](https://swatigupta.tech/) and [Dr. Mohit Singh](https://www2.isye.gatech.edu/~msingh94/).
+I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech. I am fortunate to be advised by [Dr. Swati Gupta](https://swatigupta.tech/) and [Dr. Mohit Singh](https://www2.isye.gatech.edu/~msingh94/). I visited MIT's Sloan School of Management in Fall 2024.
 
 My research interests include discrete optimization and its applications to algorithmic fairness [\[SODA25\]](https://jaimoondra.github.io/publication/existence-and-approximations-for-fair-solution-portfolios)
 [\[EC23\]](https://jaimoondra.github.io/publication/socially-fair-and-hierarchical-facility-location-problems)
