@@ -2,7 +2,7 @@
 title: "Balancing Notions of Equity: Trade-offs Between Fair Portfolio Sizes and Achievable Guarantees"
 collection: publicationsDiscreteOptimization
 permalink: /publication/existence-and-approximations-for-fair-solution-portfolios
-venue: 'SODA 2025 (Accepted)'
+venue: 'SODA 2025'
 date: '2024-09-23'
 coauthors: 'Swati Gupta and Mohit Singh'
 paperurl: 'https://arxiv.org/abs/2311.03230'
