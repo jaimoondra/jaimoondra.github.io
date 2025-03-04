@@ -23,7 +23,7 @@ I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the S
 My research interests include discrete optimization and its applications to algorithmic fairness [\[SODA25\]](https://jaimoondra.github.io/publication/existence-and-approximations-for-fair-solution-portfolios)
 [\[EC23\]](https://jaimoondra.github.io/publication/socially-fair-and-hierarchical-facility-location-problems)
 [\[web-tool\]](https://usa-medical-deserts.streamlit.app/),
-machine learning [\[NeurIPS21\]](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes),
+machine learning [\[NeurIPS21\]](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes) [\[arXiv25\]](https://arxiv.org/abs/2502.09724),
 and quantum computing
 [\[Quantum23\]](https://jaimoondra.github.io/publication/warm-started-qaoa)
 [\[PRA22\]](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings)
@@ -39,6 +39,14 @@ I am also interested in developing hybrid quantum-classical algorithms for optim
 Outside of work, I enjoy hiking, poetry, and cooking. I am also a big cricket fan!
 
 ## Research updates
+
+#### February 2025
+
+Our paper on navigating the social welfare frontier with portfolios for multi-objective reinforcement learning is now online, and under submission to ICML. Joint work with Cheol Woo Kim, Shresth Verma, Madeleine Pollack, Lingkai Kong, Milind Tambe, and Swati Gupta. Find the paper [here](https://arxiv.org/abs/2502.09724).
+
+#### December 2024
+
+Our paper on using graph sparsification and decomposition for noise reduction in QAOA is now under revision at Quantum. Joint work with Philip C. Lotshaw, Greg Mohler, and Swati Gupta.
 
 #### October 2024
 
@@ -62,7 +70,7 @@ I am interning at Amazon Research in Bellevue, Washington this summer with the S
 
 #### September 2023
 
-Our paper <i>Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths</i> has been published in Quantum! Find the paper [here](https://arxiv.org/abs/2112.11354). Joint work with Reuben Tate, Bryan Gard, Greg Mohler, and Swati Gupta.
+Our paper <i>Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths</i> has been published in Quantum! Find the paper [here](https://arxiv.org/abs/2112.11354). Joint work with Reuben Tate, Bryan Gard, Greg Mohler, and Swati Gupta. Find the paper [here](https://arxiv.org/abs/2406.14330).
 
 #### July 2023
 

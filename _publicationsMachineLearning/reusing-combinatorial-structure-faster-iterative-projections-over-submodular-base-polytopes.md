@@ -5,7 +5,7 @@ permalink: /publication/reusing-combinatorial-structure-faster-iterative-project
 excerpt: ''
 date: 2021-12-06
 venue: 'NeurIPS'
-coauthors: 'Hasan Mortagy and Swati Gupta'
+coauthors: 'Hassan Mortagy and Swati Gupta'
 paperurl: 'https://proceedings.neurips.cc/paper/2021/file/d58f36f7679f85784d8b010ff248f898-Paper.pdf'
 citation: 'Jai Moondra, Hassan Mortagy, Swati Gupta. (2021). &quot;Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes.&quot; In proceedings of the 34th conference on Neural Information Processing Systems (<i>NeurIPS</i>).'
 ---

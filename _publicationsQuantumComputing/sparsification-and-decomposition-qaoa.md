@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/sparsification-and-decomposition-qaoa
 excerpt: ''
 date: 2024-06-20
-venue: 'arXiv'
+venue: 'Under revision at <i>Quantum</i>'
 coauthors: 'Philip C. Lotshaw, Greg Mohler, and Swati Gupta'
 paperurl: 'https://arxiv.org/abs/2406.14330'
 citation: 'Jai Moondra, Philip C. Lotshaw, Greg Mohler, Swati Gupta. (June 2024). 
