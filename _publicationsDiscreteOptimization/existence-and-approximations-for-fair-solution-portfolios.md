@@ -2,8 +2,8 @@
 title: "Balancing Notions of Equity: Trade-offs Between Fair Portfolio Sizes and Achievable Guarantees"
 collection: publicationsDiscreteOptimization
 permalink: /publication/existence-and-approximations-for-fair-solution-portfolios
-venue: 'SODA 2025'
-date: '2024-09-23'
+venue: 'SODA'
+date: '2025-01-13'
 coauthors: 'Swati Gupta and Mohit Singh'
 paperurl: 'https://arxiv.org/abs/2311.03230'
 citation: 'Swati Gupta, Jai Moondra, Mohit Singh. Symposium on Discrete Algorithms (Accepted, October 2024). 
