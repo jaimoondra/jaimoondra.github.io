@@ -66,7 +66,7 @@ Outside of work, I enjoy hiking, poetry, and cooking. I am also a big cricket fa
 
 #### February 2025
 
-Our paper on navigating the social welfare frontier with portfolios for multi-objective reinforcement learning is now online, and under submission to ICML. Joint work with Cheol Woo Kim, Shresth Verma, Madeleine Pollack, Lingkai Kong, Milind Tambe, and Swati Gupta. Find the paper [here](https://arxiv.org/abs/2502.09724).
+Our paper on navigating the social welfare frontier with portfolios for multi-objective reinforcement learning is now online. Joint work with Cheol Woo Kim, Shresth Verma, Madeleine Pollack, Lingkai Kong, Milind Tambe, and Swati Gupta. Find the paper [here](https://arxiv.org/abs/2502.09724).
 
 #### December 2024
 
