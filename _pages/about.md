@@ -50,10 +50,10 @@ I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the S
 [//]: # (My thesis investigates the fundamental trade-offs between multiple competing objectives in optimization problems. )
 
 My research interests include discrete optimization and its applications to algorithmic fairness, machine learning, and quantum computing.
-Each of my research projects (alongside my fantastic and generous collaborators) answers one or more of the following questions:
+Each of my research projects (alongside my fantastic and generous collaborators) tries to answers one or more of the following questions:
 - *How do we reconcile multiple competing objectives in optimization problems?* This question arises in various contexts, such as
   - Online learning, where we seek to balance regret minimization against computational efficiency [\[NeurIPS21\]](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes).
-  - Fairness in ML and resource allocation, where different stakeholders have different, often competing definitions of fairness [\[EC23\]](https://jaimoondra.github.io/publication/socially-fair-and-hierarchical-facility-location-problems), [\[arXiv25\]](https://jaimoondra.github.io/publication/navigating-the-social-welfare-frontier), [\[web-tool\]](https://usa-medical-deserts.streamlit.app/). While algorithm design often focuses on optimizing for a single predetermined objective, real-world applications typically require balancing multiple complex goals.
+  - ML and resource allocation, where different stakeholders have different, often competing definitions of fairness [\[EC23\]](https://jaimoondra.github.io/publication/socially-fair-and-hierarchical-facility-location-problems), [\[arXiv25\]](https://jaimoondra.github.io/publication/navigating-the-social-welfare-frontier), [\[web-tool\]](https://usa-medical-deserts.streamlit.app/). While algorithm design often focuses on optimizing for a single predetermined objective, real-world applications typically require balancing multiple complex goals.
   - Combinatorial optimization, where studying multiple objectives provides a unified framework and new insights into classical problems [\[SODA25\]](https://jaimoondra.github.io/publication/existence-and-approximations-for-fair-solution-portfolios) [\[arXiv22\]](https://jaimoondra.github.io/publication/multi-purpose-routing-new-perspectives-and-algorithms).
 - *Can we combine techniques from ‘continuous’ and ‘discrete’ optimization to obtain more efficient algorithms?* For example, our paper [\[NeurIPS21\]](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes) discusses recommendation systems modelled as an online optimization problem over combinatorially rich submodular base polytope and several discrete optimization techniques to improve runtime of regret-optimal mirror descent methods on these polytopes.
 - *Can we use techniques from classical computing to improve the performance of quantum algorithms?* For example, our paper [\[Quantum23\]](https://jaimoondra.github.io/publication/warm-started-qaoa) on QAOA for Max-Cut discusses warm-starting QAOA with solutions from the classical Goemans-Williamson algorithm. Our papers [\[PRA22\]](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings) [\[arXiv24\]](https://jaimoondra.github.io/publication/sparsification-and-decomposition-qaoa) on generating graph compilations for QAOA use classical pre-processing to shorten QAOA circuit and reduce noise in it.
@@ -64,10 +64,13 @@ Outside of work, I enjoy hiking, poetry, and cooking. I am also a big cricket fa
 
 ## Research updates
 
-[//]: # (#### February 2025)
+#### May 2025
 
-[//]: # ()
-[//]: # (Our paper on navigating the social welfare frontier with portfolios for multi-objective reinforcement learning is now online. Joint work with Cheol Woo Kim, Shresth Verma, Madeleine Pollack, Lingkai Kong, Milind Tambe, and Swati Gupta. Find the paper [here]&#40;https://arxiv.org/abs/2502.09724&#41;.)
+Our paper on navigating the social welfare frontier with portfolios for multi-objective reinforcement learning has been accepted at ICML 2025! Joint work with Cheol Woo Kim, Shresth Verma, Madeleine Pollack, Lingkai Kong, Milind Tambe, and Swati Gupta. Find the paper [here](https://arxiv.org/abs/2502.09724).
+
+#### May 2025
+
+I will be attending the 2025 International Conference on Continuous Optimization (ICCOPT) and the International Conference on Machine Learning (ICML) this July. If you're attending either and would like to chat about research, feel free to reach out!
 
 #### December 2024
 
