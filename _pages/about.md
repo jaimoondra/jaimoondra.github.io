@@ -18,7 +18,11 @@ redirect_from:
   gtag('config', 'G-K4DFEX7JZJ');
 </script>
 
-I am a PhD student in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech. I am fortunate to be advised by [Dr. Swati Gupta](https://swatigupta.tech/) and [Dr. Mohit Singh](https://www2.isye.gatech.edu/~msingh94/). I visited MIT's Sloan School of Management in Fall 2024.
+I am a Postdoctoral Fellow at the Tepper School of Business, Carnegie Mellon University, working with [R. Ravi](https://www.contrib.andrew.cmu.edu/~ravi/). My research lies at the intersection of algorithms, discrete optimization, and machine learning. I am also interested in quantum computing.
+
+I received my PhD in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech, where I was fortunate to be advised by [Swati Gupta](https://swatigupta.tech/) and [Mohit Singh](https://www2.isye.gatech.edu/~msingh94/).
+
+[//]: # (I visited MIT's Sloan School of Management in Fall 2024.)
 
 [//]: # (My research interests include discrete optimization and its applications to algorithmic fairness [\[SODA25\]]&#40;https://jaimoondra.github.io/publication/existence-and-approximations-for-fair-solution-portfolios&#41;)
 
@@ -58,11 +62,17 @@ Each of my research projects (alongside my fantastic and generous collaborators)
 - *Can we combine techniques from ‘continuous’ and ‘discrete’ optimization to obtain more efficient algorithms?* For example, our paper [\[NeurIPS21\]](https://jaimoondra.github.io/publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes) discusses recommendation systems modelled as an online optimization problem over combinatorially rich submodular base polytope and several discrete optimization techniques to improve runtime of regret-optimal mirror descent methods on these polytopes.
 - *Can we use techniques from classical computing to improve the performance of quantum algorithms?* For example, our paper [\[Quantum23\]](https://jaimoondra.github.io/publication/warm-started-qaoa) on QAOA for Max-Cut discusses warm-starting QAOA with solutions from the classical Goemans-Williamson algorithm. Our papers [\[PRA22\]](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings) [\[arXiv24\]](https://jaimoondra.github.io/publication/sparsification-and-decomposition-qaoa) on generating graph compilations for QAOA use classical pre-processing to shorten QAOA circuit and reduce noise in it.
 
-
-
 Outside of work, I enjoy hiking, poetry, and cooking. I am also a big cricket fan!
 
 ## Research updates
+
+#### January 2026
+
+I am starting as a Postdoctoral Fellow at the Tepper School of Business, Carnegie Mellon University!
+
+#### November 2025
+
+I defended my PhD thesis titled "New Directions in Multi-Objective Optimization with Applications"! Find the thesis [here](https://jaimoondra.github.io/files/thesis.pdf).
 
 #### May 2025
 
