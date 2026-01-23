@@ -13,7 +13,7 @@ Education
 ======
 * B.Tech. in Computer Science and Engineering, Indian Institute of Technology, 2015-2019
 * Visiting Student at Sloan School, Massachusetts Institute of Technology, Fall 2024
-* Ph.D. in Algorithms Combinatorics and Optimization, Georgia Tech, Spring 2021-present (expected graduation: 2025)
+* Ph.D. in Algorithms Combinatorics and Optimization, Georgia Tech, Spring 2021-2025
 
 Publications
 ======

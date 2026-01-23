@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Jai Moondra"
   avatar           : "profile.png"
-  bio              : "PhD student in algorithms, combinatorics, and optimization (ACO)"
-  employer         : "Georgia Tech"
+  bio              : "Postdoctoral Fellow"
+  employer         : "CMU Tepper"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=UexdYR8AAAAJ"
-  email            : "jmoondra3@gatech.edu"
+  email            : "jaimoondra@andrew.cmu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
