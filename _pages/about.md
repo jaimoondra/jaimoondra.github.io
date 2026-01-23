@@ -20,7 +20,7 @@ redirect_from:
 
 I am a Postdoctoral Fellow at the Tepper School of Business, Carnegie Mellon University, working with [R. Ravi](https://www.contrib.andrew.cmu.edu/~ravi/). My research lies at the intersection of algorithms, discrete optimization, and machine learning. I am also interested in quantum computing.
 
-I received my PhD in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech, where I was fortunate to be advised by [Swati Gupta](https://swatigupta.tech/) and [Mohit Singh](https://www2.isye.gatech.edu/~msingh94/).
+I received my PhD in Algorithms, Combinatorics, and Optimization (ACO) at the School of Computer Science, Georgia Tech, where I was fortunate to be advised by [Swati Gupta](https://swatigupta.tech/) and [Mohit Singh](https://www2.isye.gatech.edu/~msingh94/). You can find my thesis [here](https://jaimoondra.github.io/files/thesis.pdf).
 
 [//]: # (I visited MIT's Sloan School of Management in Fall 2024.)
 
