@@ -1,6 +1,7 @@
 ---
 title: "Balancing Notions of Equity: Trade-offs Between Fair Portfolio Sizes and Achievable Guarantees"
-collection: publicationsDiscreteOptimization
+collection: publications
+tags: ["Discrete Optimization", "Algorithmic Fairness"]
 permalink: /publication/existence-and-approximations-for-fair-solution-portfolios
 venue: 'SODA'
 date: '2025-01-13'

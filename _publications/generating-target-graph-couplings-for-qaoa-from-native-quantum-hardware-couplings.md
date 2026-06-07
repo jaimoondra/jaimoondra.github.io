@@ -1,6 +1,7 @@
 ---
 title: "Generating Target Graph Couplings for QAOA from Native Quantum Hardware Couplings"
 collection: publications
+tags: ["Quantum Computing", "Discrete Optimization"]
 permalink: /publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings
 excerpt: ''
 date: 2022-07-21

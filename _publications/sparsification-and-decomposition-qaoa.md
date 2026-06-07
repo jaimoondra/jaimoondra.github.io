@@ -1,6 +1,7 @@
 ---
 title: "Promise of Graph Sparsification and Decomposition for Noise Reduction in QAOA: Analysis for Trapped-Ion Compilations"
 collection: publications
+tags: ["Quantum Computing", "Discrete Optimization"]
 permalink: /publication/sparsification-and-decomposition-qaoa
 excerpt: ''
 date: 2024-06-20

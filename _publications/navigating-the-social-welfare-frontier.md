@@ -1,10 +1,11 @@
 ---
 title: "Navigating the Social Welfare Frontier: Portfolios for Multi-objective Reinforcement Learning"
 collection: publications
+tags: ["Machine Learning", "Discrete Optimization", "Algorithmic Fairness", "LLMs"]
 permalink: /publication/navigating-the-social-welfare-frontier
 excerpt: ''
 date: 2025-02-13
-venue: 'Accepted at ICML 2025'
+venue: 'ICML'
 coauthors: 'Cheol Woo Kim, Shresth Verma, Madeleine Pollack, Lingkai Kong, Milind Tambe, Swati Gupta'
 paperurl: 'https://arxiv.org/abs/2502.09724'
 citation: 'Cheol Woo Kim, Jai Moondra, Shresth Verma, Madeleine Pollack, Lingkai Kong, Milind Tambe, Swati Gupta. (2025). &quot;Navigating the Social Welfare Frontier: Portfolios for Multi-objective Reinforcement Learning.&quot; In <i>arXiv</i>.'

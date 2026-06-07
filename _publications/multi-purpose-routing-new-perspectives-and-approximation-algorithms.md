@@ -1,6 +1,7 @@
 ---
 title: "Multi Purpose Routing: New Perspectives and Approximation Algorithms"
 collection: publications
+tags: ["Discrete Optimization", "Algorithmic Fairness"]
 permalink: /publication/multi-purpose-routing-new-perspectives-and-algorithms
 excerpt: ''
 date: 2022-08-08

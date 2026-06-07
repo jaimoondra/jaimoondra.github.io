@@ -1,6 +1,7 @@
 ---
 title: "On Disjunctive Rado Numbers for Some Sets of Equations"
 collection: publications
+tags: ["Combinatorics"]
 permalink: /publication/on-disjunctive-rado-numbers-for-some-sets-of-equations
 excerpt: ''
 date: 2024-03-22

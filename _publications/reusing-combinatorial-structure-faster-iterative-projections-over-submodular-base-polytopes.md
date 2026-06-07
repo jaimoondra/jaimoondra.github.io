@@ -1,6 +1,7 @@
 ---
 title: "Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes"
 collection: publications
+tags: ["Discrete Optimization", "Machine Learning"]
 permalink: /publication/reusing-combinatorial-structure-faster-iterative-projections-over-submodular-base-polytopes
 excerpt: ''
 date: 2021-12-06

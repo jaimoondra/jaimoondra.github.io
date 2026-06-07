@@ -1,6 +1,7 @@
 ---
 title: "New Proofs for the Disjunctive Rado Number of the Equations $x_1 - x_2 = a$ and $x_1 - x_2 = b$"
 collection: publications
+tags: ["Combinatorics"]
 permalink: /publication/new-proofs-for-the-disjunctive-rado-number-of-the-2-equations
 excerpt: ''
 date: 2022-02-01

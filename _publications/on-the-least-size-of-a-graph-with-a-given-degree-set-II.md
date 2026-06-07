@@ -1,6 +1,7 @@
 ---
 title: "Exact and Approximate Results on the Least Size of a Graph with a Given Degree Set"
 collection: publications
+tags: ["Combinatorics"]
 permalink: /publication/on-the-least-size-of-a-graph-with-a-given-degree-set-II
 excerpt: ''
 date: 2020-09-22

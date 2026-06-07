@@ -18,29 +18,50 @@ Education
 Publications
 ======
 
-<h2>Discrete Optimization</h2>
+<h2>All</h2>
 
-<ul>{% for post in site.publicationsDiscreteOptimization reversed %}
+<ul>{% for post in site.publications reversed %}
     {% include publication-single.html %}
   {% endfor %}</ul>
 
-<h2>Machine Learning</h2>
+[//]: # (<h2>Discrete Optimization</h2>)
 
-<ul>{% for post in site.publicationsMachineLearning reversed %}
-    {% include publication-single.html %}
-  {% endfor %}</ul>
+[//]: # ()
+[//]: # (<ul>{% for post in site.publicationsDiscreteOptimization reversed %})
 
-<h2>Quantum Computing</h2>
+[//]: # (    {% include publication-single.html %})
 
-<ul>{% for post in site.publicationsQuantumComputing reversed %}
-    {% include publication-single.html %}
-  {% endfor %}</ul>
+[//]: # (  {% endfor %}</ul>)
 
-<h2>Combinatorics</h2>
+[//]: # ()
+[//]: # (<h2>Machine Learning</h2>)
 
-<ul>{% for post in site.publicationsCombinatorics reversed %}
-    {% include publication-single.html %}
-  {% endfor %}</ul>
+[//]: # ()
+[//]: # (<ul>{% for post in site.publicationsMachineLearning reversed %})
+
+[//]: # (    {% include publication-single.html %})
+
+[//]: # (  {% endfor %}</ul>)
+
+[//]: # ()
+[//]: # (<h2>Quantum Computing</h2>)
+
+[//]: # ()
+[//]: # (<ul>{% for post in site.publicationsQuantumComputing reversed %})
+
+[//]: # (    {% include publication-single.html %})
+
+[//]: # (  {% endfor %}</ul>)
+
+[//]: # ()
+[//]: # (<h2>Combinatorics</h2>)
+
+[//]: # ()
+[//]: # (<ul>{% for post in site.publicationsCombinatorics reversed %})
+
+[//]: # (    {% include publication-single.html %})
+
+[//]: # (  {% endfor %}</ul>)
 
 [//]: # ()
 [//]: # ()

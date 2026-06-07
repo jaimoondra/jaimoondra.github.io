@@ -1,6 +1,7 @@
 ---
 title: "Which $L_p$ norm is the fairest? Approximations for fair facility location across all \"$p$\""
 collection: publications
+tags: ["Discrete Optimization", "Algorithmic Fairness"]
 permalink: /publication/socially-fair-and-hierarchical-facility-location-problems
 excerpt: ''
 date: 2023-05-19

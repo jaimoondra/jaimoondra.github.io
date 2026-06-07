@@ -1,6 +1,7 @@
 ---
 title: "Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths"
 collection: publications
+tags: ["Quantum Computing", "Discrete Optimization"]
 permalink: /publication/warm-started-qaoa
 excerpt: ''
 date: 2023-09-29
