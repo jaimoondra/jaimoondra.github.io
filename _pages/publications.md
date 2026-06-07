@@ -84,6 +84,11 @@ author_profile: true
     const filtersEl = document.getElementById('tag-filters');
     const listEl    = document.getElementById('publications-list');
 
+    if (!filtersEl || !listEl) {
+      console.error('tag-filters or publications-list not found', filtersEl, listEl);
+      return;
+    }
+
     // Count how many publications exist per tag
     function countForTag(tag) {
       if (tag === 'all') {
