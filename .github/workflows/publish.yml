@@ -1,0 +1,68 @@
+# Renders the Quarto site and deploys it to GitHub Pages.
+#
+# One-time setup on GitHub: Settings → Pages → "Build and deployment" →
+# Source: "GitHub Actions". Until that is set, the deploy job will fail and
+# GitHub will keep running its built-in Jekyll build instead.
+#
+# Structure follows GitHub's official Pages starter workflows
+# (github.com/actions/starter-workflows/tree/main/pages), with Quarto in
+# place of Jekyll.
+
+name: Publish site
+
+on:
+  # Runs on every push to main
+  push:
+    branches: [main]
+  # Allows running it by hand from the Actions tab
+  workflow_dispatch:
+
+# Permissions the GITHUB_TOKEN needs to deploy to Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time; queued runs wait rather than cancelling an
+# in-progress deploy.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # Pinned to the version used for local rendering so CI output
+          # matches `quarto preview`. Bump this when you upgrade locally
+          # (check with `quarto --version`).
+          version: 1.10.18
+
+      - name: Set up Pages
+        uses: actions/configure-pages@v6
+
+      - name: Render site
+        # Output goes to _site/ (project.output-dir in _quarto.yml)
+        run: quarto render
+
+      - name: Upload rendered site as Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

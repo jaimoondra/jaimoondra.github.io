@@ -1,2 +1,6 @@
+# Quarto render output (built by GitHub Actions; never committed)
 _site/
-
+# Quarto's local cache / preview state
+.quarto/
+# macOS
+.DS_Store

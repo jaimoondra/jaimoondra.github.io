@@ -1,0 +1,109 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Avenir Next", "Segoe UI", -apple-system, sans-serif;
+$primary: #4a5fc1;
+$link-color: #4a5fc1;
+
+/* Heavier, slightly larger body text */
+$font-size-base: 1.05rem;
+$font-weight-base: 500;
+$body-color: #1f2328;
+
+/*-- scss:rules --*/
+
+/* A touch of personality without losing the professional look */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+/* Home page (trestles): narrower photo column, more room for text */
+@media (min-width: 992px) {
+  div.quarto-about-trestles .about-entity {
+    flex: 0 0 26%;
+    padding-right: 2em;
+  }
+  div.quarto-about-trestles .about-contents {
+    flex: 1 1 auto;
+  }
+}
+
+.hero-blurb {
+  font-size: 1.15rem;
+  max-width: 42rem;
+}
+
+/* Cards for interactive widgets */
+.widget-box {
+  border: 2px solid #e3e6f0;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  background: #fafbff;
+}
+
+.widget-box .form-label {
+  font-weight: 600;
+}
+
+/* Publications: clickable topic tags (see assets/pub-filter.js) */
+.pub-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.05em 0.7em;
+  margin: 0.2em 0.3em 0.2em 0;
+  border-radius: 999px;
+  border: 1px solid #d6daee;
+  background: #f3f5fc;
+  color: $primary;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+a.pub-tag:hover,
+a.pub-tag:focus-visible {
+  background: #e4e8fa;
+  border-color: $primary;
+  color: $primary;
+  text-decoration: none;
+}
+
+a.pub-tag:focus-visible {
+  outline: 2px solid $primary;
+  outline-offset: 2px;
+}
+
+/* Active (selected) tag; listed after and with the hover/focus rule so it wins there too */
+.pub-tag[aria-current="true"],
+a.pub-tag[aria-current="true"]:hover,
+a.pub-tag[aria-current="true"]:focus-visible {
+  background: $primary;
+  border-color: $primary;
+  color: #fff;
+}
+
+.pub-tag-count {
+  font-weight: 500;
+  opacity: 0.75;
+  margin-left: 0.4em;
+}
+
+#pub-filter {
+  margin: 0.75rem 0 1rem;
+}
+
+#pub-filter p {
+  margin-bottom: 0.4rem;
+}
+
+#pub-filter-status {
+  font-size: 0.95rem;
+  color: #5c636a;
+}

@@ -1,0 +1,177 @@
+---
+title: "Publications"
+include-after-body:
+  text: |
+    <script src="assets/pub-filter.js"></script>
+---
+
+Also on [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&user=UexdYR8AAAAJ)
+and [arXiv](https://arxiv.org/a/moondra_j_1). Click any abstract to expand.
+
+::: {#pub-filter}
+**Topics:** [All]{.pub-tag .pub-tag-all} [Discrete Optimization]{.pub-tag} [Algorithmic Fairness]{.pub-tag} [Machine Learning]{.pub-tag} [LLMs]{.pub-tag} [Quantum Computing]{.pub-tag} [Combinatorics]{.pub-tag}
+:::
+
+---
+
+### Why Global LLM Leaderboards Are Misleading: Small Portfolios for Heterogeneous Supervised ML {#llm-leaderboards}
+
+**Jai Moondra**, Ayela Chughtai, Bhargavi Lanka, Swati Gupta.
+*Under submission*, 2026.
+[arXiv](https://arxiv.org/abs/2605.06656)
+<br>[Machine Learning]{.pub-tag} [LLMs]{.pub-tag} [Algorithmic Fairness]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+Ranking LLMs via pairwise human feedback underpins current leaderboards for open-ended tasks, such as creative writing and problem-solving. We analyze ~89K comparisons in 116 languages from 52 LLMs from Arena, and show that the best-fit global Bradley-Terry (BT) ranking is misleading. Nearly 2/3 of the decisive votes cancel out, and even the top 50 models according to the global BT ranking are statistically indistinguishable (pairwise win probabilities are at most 0.53 within the top 50 models). We trace this failure to strong, structured heterogeneity of opinions across language, task, and time. Moreover, we find an important characteristic — *language* plays a key role. Grouping by language (and families) increases the agreement of votes massively, resulting in two orders of magnitude higher spread in the ELO scores (i.e., very consistent rankings). What appears as global noise is in fact a mixture of coherent but conflicting subpopulations. To address such heterogeneity in supervised machine learning, we introduce the framework of $(\lambda,\nu)$-portfolios, which are small sets of models that achieve a prediction error at most $\lambda$, "covering" at least a $\nu$ fraction of users. We formulate this as a variant of the set cover problem and provide guarantees using the VC dimension of the underlying set system. On the Arena data, our algorithms recover just 5 distinct BT rankings that cover over 96% of votes at a modest $\lambda$, compared to the 21% coverage by the global ranking. We also provide a portfolio of 6 LLMs that cover twice as many votes as the top-6 LLMs from a global ranking. We further construct portfolios for a classification problem on the COMPAS dataset using an ensemble of fairness-regularized classification models and show that these portfolios can be used to detect blind spots in the data, which might be of independent interest to policymakers.
+:::
+
+### Many Preferences, Few Policies: Towards Scalable Language Model Personalization {#many-preferences}
+
+Cheol Woo Kim, **Jai Moondra**, Roozbeh Nahavandi, Andrew Perrault, Milind Tambe, Swati Gupta.
+*Under submission*, 2026.
+[arXiv](https://arxiv.org/abs/2604.04144)
+<br>[Machine Learning]{.pub-tag} [LLMs]{.pub-tag} [Algorithmic Fairness]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+The holy grail of LLM personalization is a single LLM for each user, perfectly aligned with that user's preferences. However, maintaining a separate LLM per user is impractical due to constraints on compute, memory, and system complexity. We address this challenge by developing a principled method for selecting a small portfolio of LLMs that captures representative behaviors across heterogeneous users. We model user preferences across multiple traits (e.g., safety, humor, brevity) through a multi-dimensional weight vector. Given reward functions across these dimensions, our algorithm PALM (Portfolio of Aligned LLMs) generates a small portfolio of LLMs such that, for any weight vector, the portfolio contains a near-optimal LLM for the corresponding scalarized objective. To the best of our knowledge, this is the first result that provides theoretical guarantees on both the size and approximation quality of LLM portfolios for personalization. It characterizes the trade-off between system cost and personalization, as well as the diversity of LLMs required to cover the landscape of user preferences. We provide empirical results that validate these guarantees and demonstrate greater output diversity over common baselines.
+:::
+
+### Stochastic Function Certification with Correlations {#stochastic-certification}
+
+Rohan Ghuge, **Jai Moondra**, Mohit Singh.
+*Under submission*, 2026.
+[arXiv](https://arxiv.org/abs/2604.02611)
+<br>[Discrete Optimization]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+We study the Stochastic Boolean Function Certification (SBFC) problem, where we are given n Bernoulli random variables $\lbrace X_e : e \in U \rbrace$ on a ground set $U$ of $n$ elements with joint distribution $p$, a Boolean function $f$ on the power set of $U$, and an (unknown) scenario $S = \lbrace e \in U: X_e = 1 \rbrace$ of active elements sampled from $p$. We seek to probe the elements one-at-a-time to reveal if they are active until we can certify $f(S)=1$, while minimizing the expected number of probes. Unlike most previous results that assume independence, we study correlated distributions $p$ and give approximation algorithms for several classes of functions $f$.
+When $f(S)$ is the indicator function for whether $S$ is the spanning set of a given matroid, our problem reduces to finding a basis of active elements of a matroid by probing elements. We give a non-adaptive $O(\log n)$-approximation algorithm for arbitrary distributions $p$, and show that this is tight up to constants unless P = NP, even for partition matroids. For uniform matroids, we give constant factor 4.642-approximation ([BBFT20]) that can be further improved to a 2-approximation if additionally the random variables are negatively correlated for the case of 1-uniform matroid.
+We also give an adaptive $O(\log k)$-approximation algorithm for SBFC for $k$-uniform matroids for the Graph Probing problem, where we seek to probe the edges of a graph one-at-a-time until we find $k$ active edges. The underlying distribution on edges arises from (hidden) independent vertex random variables, with an edge being active if at least one of its endpoints is active. This significantly improves over the information-theoretic lower bound on $\Omega(\text{poly}(n))$ ([JGM19]) for adaptive algorithms for $k$-uniform matroids with arbitrary distributions.
+:::
+
+### Navigating the Social Welfare Frontier: Portfolios for Multi-objective Reinforcement Learning {#social-welfare-frontier}
+
+Cheol Woo Kim, **Jai Moondra**, Shresth Verma, Madeleine Pollack, Lingkai Kong, Milind Tambe, Swati Gupta.
+*ICML*, 2025.
+[arXiv](https://arxiv.org/abs/2502.09724)
+<br>[Machine Learning]{.pub-tag} [Discrete Optimization]{.pub-tag} [Algorithmic Fairness]{.pub-tag} [LLMs]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+In many real-world applications of reinforcement learning (RL), deployed policies have varied impacts on different stakeholders, creating challenges in reaching consensus on how to effectively aggregate their preferences. Generalized p-means form a widely used class of social welfare functions for this purpose, with broad applications in fair resource allocation, AI alignment, and decision-making. This class includes well-known welfare functions such as Egalitarian, Nash, and Utilitarian welfare. However, selecting the appropriate social welfare function is challenging for decision-makers, as the structure and outcomes of optimal policies can be highly sensitive to the choice of p. To address this challenge, we study the concept of an α-approximate portfolio in RL, a set of policies that are approximately optimal across the family of generalized p-means for all $p \in [-\infty, 1]$. We propose algorithms to compute such portfolios and provide theoretical guarantees on the trade-offs among approximation factor, portfolio size, and computational efficiency. Experimental results on synthetic and real-world datasets demonstrate the effectiveness of our approach in summarizing the policy space induced by varying p values, empowering decision-makers to navigate this landscape more effectively.
+:::
+
+### Balancing Notions of Equity: Trade-offs Between Fair Portfolio Sizes and Achievable Guarantees {#fair-portfolios}
+
+Swati Gupta, **Jai Moondra**, Mohit Singh.
+*Symposium on Discrete Algorithms (SODA)*, 2025.
+[arXiv](https://arxiv.org/abs/2311.03230)
+<br>[Discrete Optimization]{.pub-tag} [Algorithmic Fairness]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+Motivated by fairness concerns, we study the 'portfolio problem': given an optimization problem with set $D$ of feasible solutions, a class $\mathbf{C}$ of fairness objective functions on $D$, and an approximation factor $\alpha \ge 1$, a set $X \subseteq D$ of feasible solutions is an $\alpha$-approximate portfolio if for each objective $f \in \mathbf{C}$, there is an $\alpha$-approximation for $f$ in $X$. Choosing the classes of top-$k$ norms, ordered norms, and symmetric monotonic norms as our equity objectives, we study the trade-off between the size of the portfolio and its approximation factor $\alpha$ for various combinatorial problems. For the problem of scheduling identical jobs on unidentical machines, we characterize this trade-off for ordered norms and give an exponential improvement in size for symmetric monotonic norms over the general upper bound. We generalize this result as the OrderAndCount framework that obtains an exponential improvement in portfolio sizes for covering polyhedra with a constant number of constraints. Our framework is based on a novel primal-dual counting technique that may be of independent interest. We also introduce a general IterativeOrdering framework for simultaneous approximations or portfolios of size 1 for symmetric monotonic norms, which generalizes and extends existing results for problems such as scheduling, $k$-clustering, set cover, and routing.
+:::
+
+### Promise of Graph Sparsification and Decomposition for Noise Reduction in QAOA: Analysis for Trapped-Ion Compilations {#qaoa-sparsification}
+
+**Jai Moondra**, Philip C. Lotshaw, Greg Mohler, Swati Gupta.
+*Under revision at Quantum*, 2024.
+[arXiv](https://arxiv.org/abs/2406.14330)
+<br>[Quantum Computing]{.pub-tag} [Discrete Optimization]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+We develop new approximate compilation schemes that significantly reduce the expense of compiling the Quantum Approximate Optimization Algorithm (QAOA) for solving the Max-Cut problem. Our main focus is on compilation with trapped-ion simulators using Pauli-X operations and all-to-all Ising Hamiltonian H~Ising~ evolution generated by Molmer-Sorensen or optical dipole force interactions, though some of our results also apply to standard gate-based compilations. Our results are based on principles of graph sparsification and decomposition; the former reduces the number of edges in a graph while maintaining its cut structure, while the latter breaks a weighted graph into a small number of unweighted graphs. Though these techniques have been used as heuristics in various hybrid quantum algorithms, there have been no guarantees on their performance, to the best of our knowledge. This work provides the first provable guarantees using sparsification and decomposition to improve quantum noise resilience and reduce quantum circuit complexity.
+For quantum hardware that uses edge-by-edge QAOA compilations, sparsification leads to a direct reduction in circuit complexity. For trapped-ion quantum simulators implementing all-to-all H~Ising~ pulses, we show that for a $(1-\epsilon)$ factor loss in the Max-Cut approximation $(\epsilon > 0)$, our compilations improve the (worst-case) number of H~Ising~ pulses from $O(n^2)$ to $O(n \log(n/\epsilon))$ and the (worst-case) number of Pauli-X bit flips from $O(n^2)$ to $O(\frac{n \log(n/\epsilon)}{\epsilon^2})$ for $n$-node graphs. We demonstrate significant reductions in noise are obtained in our new compilation approaches using theory and numerical calculations for trapped-ion hardware. We anticipate these approximate compilation techniques will be useful tools in a variety of future quantum computing experiments.
+:::
+
+### On Disjunctive Rado Numbers for Some Sets of Equations {#disjunctive-rado-2024}
+
+A. Dileep, **Jai Moondra**, Amitabha Tripathi.
+*The Electronic Journal of Combinatorics*, 2024.
+[Journal link](https://www.combinatorics.org/ojs/index.php/eljc/article/view/v31i1p69)
+<br>[Combinatorics]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+Given a set of linear equations $S$ with positive integral parameters $a_1, \ldots, a_k$, $k \ge 2$, the disjunctive Rado number for the set $S$ is the least positive integer $R_d = R_d(S)$, if it exists, such that every $2$-coloring $\chi$ of the integers in $\{1, \ldots, R\}$ admits a monochromatic solution to at least one equation in $S$. We give conditions for the existence of $R_d(S)$, and also give general upper and lower bounds on $R_d(S)$, when $S$ is a set of additive equations $\{y = x + a_1, \ldots, y = x + a_k\}$. We also determine $R_d(S)$ when $\max_i a_i$ is large enough, or when $a_1, \ldots, a_k$ form an arithmetic or geometric progression. We also give conditions for the existence of $R_d(S)$ when $S$ is a set of multiplicative equations $\{y = a_1x, \ldots, y = a_kx\}$. Further, we give a general search-based algorithm to determine $R_d(S)$ when $S$ is a system of equations in two variables, given an upper bound on $R_d(S)$ and an algorithm to determine solutions to $S$. This algorithm runs in time $O(k a_k \log a_k)$ for the case of additive equations, which is exponentially better than the brute-force algorithm for the problem.
+:::
+
+### Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths {#warm-started-qaoa}
+
+Reuben Tate, **Jai Moondra**, Bryan Gard, Greg Mohler, Swati Gupta.
+*Quantum*, 2023.
+[arXiv](https://arxiv.org/abs/2112.11354) ·
+[Journal link](https://quantum-journal.org/papers/q-2023-09-26-1121/)
+<br>[Quantum Computing]{.pub-tag} [Discrete Optimization]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+We generalize the Quantum Approximate Optimization Algorithm (QAOA) of Farhi et al. (2014) to allow for arbitrary separable initial states with corresponding mixers such that the starting state is the most excited state of the mixing Hamiltonian. We demonstrate this version of QAOA, which we call QAOA-warmest, by simulating Max-Cut on weighted graphs. We initialize the starting state as a warm-start using 2 and 3-dimensional approximations obtained using randomized projections of solutions to Max-Cut's semi-definite program, and define a warm-start dependent custom mixer. We show that these warm-starts initialize the QAOA circuit with constant-factor approximations of 0.658 for 2-dimensional and 0.585 for 3-dimensional warm-starts for graphs with non-negative edge weights, improving upon previously known trivial (i.e., 0.5 for standard initialization) worst-case bounds at p = 0. These factors in fact lower bound the approximation achieved for Max-Cut at higher circuit depths, since we also show that QAOA-warmest with any separable initial state converges to Max-Cut under the adiabatic limit as p → ∞. However, the choice of warm-starts significantly impacts the rate of convergence to Max-Cut, and we show empirically that our warm-starts achieve a faster convergence compared to existing approaches. Additionally, our numerical simulations show higher quality cuts compared to standard QAOA, the classical Goemans-Williamson algorithm, and a warm-started QAOA without custom mixers for an instance library of 1148 graphs (upto 11 nodes) and depth p=8. We further show that QAOA-warmest outperforms the standard QAOA of Farhi et al. in experiments on current IBM-Q and Quantinuum hardware.
+:::
+
+### Which $L_p$ norm is the fairest? Approximations for fair facility location across all "$p$" {#fair-facility-location}
+
+Swati Gupta, **Jai Moondra**, Mohit Singh.
+*Economics and Computation (EC)*, 2023.
+[arXiv](https://arxiv.org/abs/2211.14873)
+<br>[Discrete Optimization]{.pub-tag} [Algorithmic Fairness]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+Fair facility location problems try to balance access costs to open facilities borne by different groups of people by minimizing the $L_p$ norm of these group distances. However, there is no clear choice of "$p$" in the current literature. We present a novel approach to address the challenge of choosing the right notion of fairness. We introduce the concept of portfolios, a set of solutions that contains an approximately optimal solution for each objective in a given class of objectives, such as $L_p$ norms. This concept opens up new possibilities for getting around the "right" notion of fairness for many problems. For $r$ client groups, we demonstrate portfolios of size $\Theta(\log r)$ for the facility location and $k$-clustering problems, with an $O(1)$-approximate solution for each $L_p$ norm. Further, motivated by the Justice40 Initiative that provides rolling budget investments, we impose a refinement-like structure on the portfolio. We develop novel approximation algorithms for these structured portfolios and show experimental evidence of their performance in two US counties. We also present a planning tool that provides potential ways to expand access to US healthcare facilities, which might be of independent interest to policymakers.
+:::
+
+### Multi Purpose Routing: New Perspectives and Approximation Algorithms {#multi-purpose-routing}
+
+Majid Farhadi, **Jai Moondra**, Prasad Tetali, Alejandro Toriello.
+*arXiv*, 2022.
+[arXiv](https://arxiv.org/abs/2208.04410)
+<br>[Discrete Optimization]{.pub-tag} [Algorithmic Fairness]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+The cost due to delay in services may be intrinsically different for various applications of vehicle routing such as medical emergencies, logistical operations, and ride-sharing. We study a fundamental generalization of the Traveling Salesman Problem, namely $L_p$ TSP, where the objective is to minimize an aggregated measure of the delay in services, quantified by the Minkowski $p$-norm of the delay vector. We present efficient combinatorial and Linear Programming algorithms for approximating $L_p$ TSP on general metrics. We provide several approximation algorithms for the $L_p$ TSP problem, including $4.27$ & $10.92$-approximation algorithms for single & multi vehicle $L_2$ TSP, called the Traveling Firefighter Problem. Among other contributions, we provide an $8$-approximation and a $1.78$ inapproximability for All-Norm TSP problem, addressing scenarios where one does not know the ideal cost function, or is seeking simultaneous approximation with respect to any cost function.
+:::
+
+### Generating Target Graph Couplings for QAOA from Native Quantum Hardware Couplings {#qaoa-graph-couplings}
+
+Joel Rajakumar, **Jai Moondra**, Bryan Gard, Swati Gupta, Creston D. Herold.
+*Physical Review A* 106.2, 2022.
+[Journal link](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.106.022606) ·
+[arXiv](https://arxiv.org/abs/2011.08165) ·
+[PDF](files/Generating Target Graph Couplings for QAOA from Native Quantum Hardware Couplings.pdf)
+<br>[Quantum Computing]{.pub-tag} [Discrete Optimization]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+We present methods for constructing any target coupling graph using limited global controls in an Ising-like quantum spin system. Our approach is motivated by implementing the quantum approximate optimization algorithm (QAOA) on trapped ion quantum hardware to find approximate solutions to Max-Cut. We present a mathematical description of the problem and provide approximately optimal algorithmic constructions that generate arbitrary unweighted coupling graphs with n nodes in O(n) global entangling operations and weighted graphs with m edges in O(m) operations. These upper bounds are not tight in general, and we formulate a mixed-integer program to solve the graph coupling problem to optimality. We perform numeric experiments on small graphs with n≤8 and show that optimal sequences, which use fewer operations, can be found using mixed-integer programs. Noisy simulations of Max-Cut QAOA show that our implementation is less susceptible to noise than the standard gate-based compilation.
+:::
+
+### New Proofs for the Disjunctive Rado Number of the Equations $x_1 - x_2 = a$ and $x_1 - x_2 = b$ {#disjunctive-rado-2022}
+
+A. Dileep, **Jai Moondra**, Amitabha Tripathi.
+*Graphs and Combinatorics* 38:38, 2022.
+[Journal link](https://link.springer.com/article/10.1007/s00373-021-02400-y)
+<br>[Combinatorics]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+Let $m, a, b$ be positive integers, with $\gcd(a,b)=1$. The disjunctive Rado number for the pair of equations $y-x=ma, y-x=mb$, is the least positive integer $R=R_d(ma,mb)$, if it exists, such that every $2$-coloring $\chi$ of the integers in $\{ 1,\ldots,R \}$ admits a solution to at least one of $\chi(x)=\chi(x+ma), \chi(x)=\chi(x+mb)$. We show that $R_d(ma,mb)$ exists if and only if $ab$ is even, and that it equals $m(a+b-1)+1$ in this case. We also show that there are exactly $2m$ valid $2$-colorings of $[1,m(a+b-1)]$ for the equations $y-x=ma$ and $y-x=mb$, and use this to obtain another proof of the formula for $R_d(ma,mb)$.
+:::
+
+### Reusing Combinatorial Structure: Faster Iterative Projections over Submodular Base Polytopes {#reusing-combinatorial-structure}
+
+**Jai Moondra**, Hassan Mortagy, Swati Gupta.
+*NeurIPS*, 2021.
+[arXiv](https://arxiv.org/abs/2106.11943) ·
+[Conference link](https://proceedings.neurips.cc/paper/2021/hash/d58f36f7679f85784d8b010ff248f898-Abstract.html)
+<br>[Discrete Optimization]{.pub-tag} [Machine Learning]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+Optimization algorithms such as projected Newton's method, FISTA, mirror descent and its variants enjoy near-optimal regret bounds and convergence rates, but suffer from a computational bottleneck of computing "projections" in potentially each iteration (e.g., $O(T^{1/2})$ regret of online mirror descent). On the other hand, conditional gradient variants solve a linear optimization in each iteration, but result in suboptimal rates (e.g., $O(T^{3/4})$ regret of online Frank-Wolfe). Motivated by this trade-off in runtime v/s convergence rates, we consider iterative projections of close-by points over widely-prevalent submodular base polytopes $B(f)$. We develop a toolkit to speed up the computation of projections using both discrete and continuous perspectives. We subsequently adapt the away-step Frank-Wolfe algorithm to use this information and enable early termination. For the special case of cardinality based submodular polytopes, we improve the runtime of computing certain Bregman projections by a factor of $\Omega(n/\log(n))$. Our theoretical results show orders of magnitude reduction in runtime in preliminary computational experiments.
+:::
+
+### Exact and Approximate Results on the Least Size of a Graph with a Given Degree Set {#degree-set}
+
+**Jai Moondra**, Aditya Sahdev, Amitabha Tripathi.
+*Discrete Applied Mathematics*.
+[arXiv](https://arxiv.org/abs/2009.10294) ·
+[PDF](files/On the least size of a graph with a given degree set – II.pdf)
+<br>[Combinatorics]{.pub-tag}
+
+::: {.callout-note collapse="true" title="Abstract"}
+The degree set of a finite simple graph $G$ is the set of distinct degrees of vertices of $G$. A theorem of Kapoor, Polimeni & Wall asserts that the least order of a graph with a given degree set $D$ is $1+\max D$. Tripathi & Vijay considered the analogous problem concerning the least size of graphs with degree set $D$. We expand on their results, and determine the least size of graphs with degree set $D$ when (i) $\min D \mid d$ for each $d \in D$; (ii) $\min D=2$; (iii) $D=\{m,m+1,\ldots,n\}$. In addition, given any $D$, we produce a graph $G$ whose size is within $\min D$ of the optimal size.
+:::

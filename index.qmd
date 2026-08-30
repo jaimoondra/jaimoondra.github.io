@@ -1,0 +1,163 @@
+---
+title: "Jai Moondra"
+image: images/profile.jpg
+about:
+  template: trestles
+  image-width: 9em
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email (jmoondra@cmu.edu)
+      href: mailto:jmoondra@cmu.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/jaimoondra
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=UexdYR8AAAAJ"
+    - icon: LinkedIn
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jai-moondra/
+---
+
+---
+layout: about
+title:
+permalink: /
+subtitle: >
+  Postdoctoral Fellow,
+  CMU Tepper School of Business.
+
+profile:
+  align: right
+  image: prof_pic.png
+  image_circular: false
+  more_info: >
+    <p>jmoondra@cmu.edu</p>
+    <p>Carnegie Mellon University</p>
+    <p>Pittsburgh, PA</p>
+
+selected_papers: true
+social: true
+
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: false
+  scrollable: false
+  limit: 3
+---
+
+I am a Postdoctoral Fellow at the Tepper School of Business, Carnegie Mellon University with [R. Ravi](https://www.contrib.andrew.cmu.edu/~ravi/), with broad interests in designing algorithms that enjoy mathematical guarantees while being practically useful.
+My research is in discrete optimization and its applications to responsible computing, AI personalization, quantum computing, and online learning.
+I received my PhD in Algorithms, Combinatorics, and Optimization (ACO) at School of Computer Science, Georgia Tech, and was very fortunate to be advised by [Swati Gupta](https://swatigupta.tech/) and [Mohit Singh](https://www2.isye.gatech.edu/~msingh94/).
+
+My thesis introduced and developed the notion of *solution portfolios*, which are small collections of candidate solutions or algorithms for an optimization problem, with mathematical guarantees.
+Most optimization frameworks commit to a single objective and return one "best" answer; but in practice different candidates offer different qualities: personalization competes with cost in AI models, different stakeholders want different things, and cost-efficiency competes with fairness.
+A portfolio instead offers a handful of solutions that provably contain a near-optimal option for any desired objective.
+You can find my thesis [here](https://jaimoondra.github.io/files/thesis.pdf).
+
+More on my research, all of which is with my fantastic collaborators:
+
+- **Approximation algorithms**: I design approximation algorithms for classical combinatorial optimization problems, usually in multi-objective settings motivated by fairness concerns [[SODA 25, Math Prog 26]](https://arxiv.org/abs/2311.03230), [[EC 23]](https://arxiv.org/abs/2211.14873), [[arXiv 22]](https://arxiv.org/abs/2208.04410) and in stochastic settings [[arXiv 26*]](https://arxiv.org/abs/2604.02611).
+The work on facility location [[EC 23]](https://arxiv.org/abs/2211.14873) is accompanied by a [web tool](https://usa-medical-deserts.streamlit.app/) that documents *medical deserts* (poor areas with low access to pharmacies and hospitals) in the US and recommends locations for opening new pharmacies.
+
+- **Responsible AI**: I am interested in the trade-offs between cost and personalization/fairness in ML models, and on cost-effective ways of developing diverse LLMs [\[arXiv 26\]](https://arxiv.org/abs/2604.04144), leaderboards [\[arXiv 26*\]](https://arxiv.org/abs/2605.06656), and policies [[ICML 25]](https://arxiv.org/abs/2502.09724).
+
+- **Quantum computing**: I am interested in developing hybrid classical-quantum algorithms and how classical techniques can help improve performance on noisy quantum (NISQ) hardware.
+Specifically, my research develops classical pre-processing methods for QAOA algorithm for QUBO Max-Cut problems, resulting in improved performance and noise reduction in quantum computers [[Quantum 26]](https://jaimoondra.github.io/publication/sparsification-and-decomposition-qaoa) [[Quantum 23]](https://jaimoondra.github.io/publication/warm-started-qaoa) [[Physical Review A 22]](https://jaimoondra.github.io/publication/generating-target-graph-couplings-for-qaoa-from-native-quantum-hardware-couplings).
+
+- **Online learning**: My research involves using combinatorial techniques to provide improved theoretical guarantees and empirical performance of online algorithms [\[arXiv 26*\]](https://arxiv.org/abs/2602.13177) [[NeurIPS 21]](https://arxiv.org/abs/2106.11943).
+
+\* denotes papers under review.
+
+I am on the job market for faculty positions starting in Summer or Fall 2027.
+
+Outside of work, I enjoy poetry, biking, being in nature, following cricket, and cooking.
+
+## Research updates
+
+**August 2026** — Our paper on noise reduction for QAOA using graph sparsification and decomposition has been published in *Quantum*. Joint work with Phillip C. Lotshaw, Greg Mohler, and Swati Gupta. Find the paper [here](https://quantum-journal.org/papers/q-2026-08-07-2185/).
+
+**July 2026** — Our paper on portfolios in combinatorial optimization problems from SODA 25 has been published in *Mathematical Progamming*. Joint work with Swati Gupta and Mohit Singh. Find the paper (https://arxiv.org/abs/2311.03230).
+
+**January 2026** — I am starting as a Postdoctoral Fellow at Tepper School of
+Business, Carnegie Mellon University!
+
+**November 2025** — I defended my PhD thesis titled "New Directions in
+Multi-Objective Optimization with Applications"! Find the thesis
+[here](files/thesis.pdf). Extremely grateful to my thesis committee members:
+Swati Gupta (co-advisor), Mohit Singh (co-advisor), Santosh Vempala, Milind
+Tambe, and Sahil Singla.
+
+**May 2025** — Our paper on navigating the social welfare frontier with
+portfolios for multi-objective reinforcement learning has been accepted at ICML
+2025! Joint work with Cheol Woo Kim, Shresth Verma, Madeleine Pollack, Lingkai
+Kong, Milind Tambe, and Swati Gupta. Find the paper
+[here](https://arxiv.org/abs/2502.09724).
+
+**May 2025** — I will be attending the 2025 International Conference on
+Continuous Optimization (ICCOPT) and the International Conference on Machine
+Learning (ICML) this July. If you're attending either and would like to chat
+about research, feel free to reach out!
+
+**December 2024** — Our paper on using graph sparsification and decomposition
+for noise reduction in QAOA is now under revision at Quantum. Joint work with
+Philip C. Lotshaw, Greg Mohler, and Swati Gupta.
+
+**October 2024** — Our paper on portfolios for fairness in combinatorial
+optimization has been accepted at SODA 2025! Joint work with Swati Gupta and
+Mohit Singh. Find the paper [here](https://arxiv.org/abs/2311.03230).
+
+**September 2024** — I am visiting Dr. Swati Gupta's lab at MIT Sloan School of
+Management this Fall!
+
+**June 2024** — Our paper on using graph sparsification and decomposition for
+noise reduction in QAOA is now online [here](https://arxiv.org/abs/2406.14330).
+Joint work with Philip C. Lotshaw, Greg Mohler, and Swati Gupta.
+
+**May 2024** — Our [web tool](https://usa-medical-deserts.streamlit.app/) to
+visualize and mitigate 'medical deserts' in the US is now online. Based on our
+[paper](https://arxiv.org/abs/2211.14873) on fair facility location from EC
+2023. Joint work with Swati Gupta and Mohit Singh.
+
+**May 2024** — I am interning at Amazon Research in Bellevue, Washington this
+summer with the Supply Chains Optimization Technology team.
+
+**September 2023** — Our paper *Warm-Started QAOA with Custom Mixers Provably
+Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit
+Depths* has been published in Quantum! Find the paper
+[here](https://arxiv.org/abs/2112.11354). Joint work with Reuben Tate, Bryan
+Gard, Greg Mohler, and Swati Gupta.
+
+**July 2023** — Our paper *Which $L_p$ norm is the fairest? Approximations for
+fair facility location across all 'p'* has been published in Economics and
+Computation (EC) 2023! Find the paper
+[here](https://arxiv.org/abs/2211.14873). Joint work with Swati Gupta and Mohit
+Singh.
+
+**July 2022** — Our paper *Generating Target Graph Couplings for QAOA from
+Native Quantum Hardware Couplings* has been accepted for publication in
+Physical Review A! Find the paper
+[here](publications.qmd#qaoa-graph-couplings). Joint work with Joel Rajakumar,
+Bryan Gard, Creston Herold, and Swati Gupta.
+
+**May 2022** — Our poster on *Reusing Combinatorial Structure: Faster Iterative
+Projections over Submodular Base Polytopes* is runner-up at MIP 2022 poster
+competition! Find the paper from NeurIPS 2021
+[here](https://arxiv.org/abs/2106.11943). Joint work with Hassan Mortagy and
+Swati Gupta.
+
+**February 2022** — Our paper *New Proofs for the Disjunctive Rado Number of
+the Equations $x_1 - x_2 = a$ and $x_1 - x_2 = b$* has been published in Graphs
+and Combinatorics! Find the paper
+[here](publications.qmd#disjunctive-rado-2022). Joint work with A. Dileep and
+Amitabha Tripathi.
+
+**December 2021** — Our paper *Reusing Combinatorial Structure: Faster
+Iterative Projections over Submodular Base Polytopes* has been published in
+NeurIPS 2021! Find the paper [here](https://arxiv.org/abs/2106.11943). Joint
+work with Hassan Mortagy and Swati Gupta.

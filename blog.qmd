@@ -1,0 +1,12 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, description]
+---
+
+Explorable posts — each one lets you turn the knobs yourself. (The gradient
+descent post below is the demo from the template — replace or delete it when
+you write your first real post.)

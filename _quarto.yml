@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - files/
+    - assets/pub-filter.js
+
+website:
+  title: "Jai Moondra"
+  site-url: https://jaimoondra.github.io
+  google-analytics: "G-K4DFEX7JZJ"
+  navbar:
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/jaimoondra
+      - icon: mortarboard-fill
+        href: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=UexdYR8AAAAJ"
+      - icon: envelope
+        href: mailto:jaimoondra@cmu.edu
+  page-footer:
+    center: "© Jai Moondra · Built with Quarto · hosted free on GitHub Pages"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/custom.scss
+    toc: false
+    grid:
+      body-width: 1050px
+      sidebar-width: 0px
+      margin-width: 0px
+    html-math-method: katex
+    link-external-newwindow: true
