@@ -7,8 +7,8 @@ about:
   image-shape: rounded
   links:
     - icon: envelope
-      text: Email (jmoondra@cmu.edu)
-      href: mailto:jmoondra@cmu.edu
+      text: Email (jmoondra@andrew.cmu.edu)
+      href: mailto:jmoondra@andrew.cmu.edu
     - icon: github
       text: GitHub
       href: https://github.com/jaimoondra
@@ -33,7 +33,7 @@ profile:
   image: prof_pic.png
   image_circular: false
   more_info: >
-    <p>jmoondra@cmu.edu</p>
+    <p>jmoondra@andrew.cmu.edu</p>
     <p>Carnegie Mellon University</p>
     <p>Pittsburgh, PA</p>
 
