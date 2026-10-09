@@ -83,6 +83,8 @@ Outside of work, I enjoy poetry, biking, being in nature, following cricket, and
 
 ## Research updates
 
+**September 2026** — Our paper on stochastic function certification with correlations has been accepted at *Symposium on Discrete Algorithms (SODA)* 2027. Joint work with Rohan Ghuge and Mohit Singh. Find the paper [here](https://arxiv.org/abs/2604.02611).
+
 **August 2026** — Our paper on noise reduction for QAOA using graph sparsification and decomposition has been published in *Quantum*. Joint work with Phillip C. Lotshaw, Greg Mohler, and Swati Gupta. Find the paper [here](https://quantum-journal.org/papers/q-2026-08-07-2185/).
 
 **July 2026** — Our paper on portfolios in combinatorial optimization problems from SODA 25 has been published in *Mathematical Progamming*. Joint work with Swati Gupta and Mohit Singh. Find the paper (https://arxiv.org/abs/2311.03230).
