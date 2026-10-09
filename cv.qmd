@@ -4,7 +4,7 @@ title: "CV"
 
 <!-- Tip: export a PDF version of your CV to files/cv.pdf and link it here. -->
 
-See (here)[https://jaimoondra.github.io/files/resume_Oct_5.pdf] for a PDF copy.
+See [here](https://jaimoondra.github.io/files/resume_Oct_5.pdf) for a PDF copy.
 ## Education and experience
 
 - **Postdoctoral Fellow** at *Tepper School of Business, Carnegie Mellon University*, January 2026-present
