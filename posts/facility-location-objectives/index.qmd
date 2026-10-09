@@ -1,0 +1,47 @@
+---
+title: "How the objective changes where facilities go"
+description: "Compare average distance, maximum distance, top-k objectives, and Lp norms on the same facility-location instance."
+date: 2026-09-12
+resources:
+  - widget.html
+---
+
+Where should we place facilities to serve a community? Even with the same
+people, candidate sites, and number of facilities, the answer depends on
+what we choose to minimize.
+
+The example below has **240 people, 30 candidate sites, and a limit of three
+facilities**. It represents a synthetic region with a dense population center that overlaps a broadly dispersed surrounding population. It has no financial constraints or subsidies. The left side
+initially minimizes average travel distance (*k-median*); the right side
+minimizes the sum of the four longest trips (top-$k$ with $k=4$).
+
+Choose an objective family independently on each side—average distance, top-$k$, a convex combination, or an $L_p$ norm—then adjust its parameter. Client colors run from blue for shorter trips to red for longer
+trips, using the same nonlinear color scale on both sides. Open **More details**
+for objective equivalences and information about the computations.
+
+Each distribution shows that map’s distances in black and the other side’s distribution in light gray, using lines through histogram bin counts. Vertical markers show the average, maximum, and both selected objectives evaluated on those distances; overlapping markers are merged. Each objective is normalized to equal $d$ when everyone travels distance $d$. **Show closest facility** connects each person to its nearest open site and is on by default.
+
+```{=html}
+<iframe id="facility-location-widget" src="widget.html"
+  title="Interactive comparison of facility-location objectives"
+  sandbox="allow-scripts" style="display:block;width:100%;height:1160px;border:0;"
+  loading="lazy"></iframe>
+<script>
+(() => {
+  const frame = document.getElementById('facility-location-widget');
+  window.addEventListener('message', event => {
+    if (event.source !== frame.contentWindow || event.data?.type !== 'facility-explorer:resize') return;
+    const height = event.data.height;
+    if (Number.isFinite(height) && height > 0 && height < 20000) frame.style.height = `${Math.ceil(height) + 4}px`;
+  });
+})();
+</script>
+```
+
+[Open the explorer on its own](widget.html){target="_blank"}
+
+This layout was selected by screening eight configurations with dispersed surrounding populations, using only the average-distance and maximum-distance objectives. Compared with minimizing average distance, minimizing maximum distance reduces the longest trip by about **36%**, while average travel increases by about **27%**. There are 180 people in the dense center and 60 spread across the wider region, including the transition around the center; the contrast does not rely on separate satellite clusters.
+
+The solutions are precomputed using my facility-location code and Gurobi;
+changing a slider selects one of those solutions. The community stays fixed
+throughout, so the comparison isolates the effect of the objective.
