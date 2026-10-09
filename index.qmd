@@ -18,6 +18,9 @@ about:
     - icon: LinkedIn
       text: LinkedIn
       href: https://www.linkedin.com/in/jai-moondra/
+    - icon: letter
+      text: CV
+      href: "https://jaimoondra.github.io/blob/main/files/resume_Oct_5.pdf"
 ---
 
 ---
@@ -51,7 +54,7 @@ latest_posts:
   limit: 3
 ---
 
-I am a Postdoctoral Fellow at the Tepper School of Business, Carnegie Mellon University with [R. Ravi](https://www.contrib.andrew.cmu.edu/~ravi/), with broad interests in designing algorithms that enjoy mathematical guarantees while being practically useful.
+I am a Postdoctoral Fellow at the Tepper School of Business, Carnegie Mellon University with [R. Ravi](https://www.contrib.andrew.cmu.edu/~ravi/), with broad interests in designing algorithms that enjoy mathematical guarantees while being practically useful. My research statement can be found [here](https://jaimoondra.github.io/blob/main/files/research_statement_Oct_5.pdf).
 My research is in discrete optimization and its applications to responsible computing, AI personalization, quantum computing, and online learning.
 I received my PhD in Algorithms, Combinatorics, and Optimization (ACO) at School of Computer Science, Georgia Tech, and was very fortunate to be advised by [Swati Gupta](https://swatigupta.tech/) and [Mohit Singh](https://www2.isye.gatech.edu/~msingh94/).
 
