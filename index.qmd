@@ -63,6 +63,8 @@ Most optimization frameworks commit to a single objective and return one "best" 
 A portfolio instead offers a handful of solutions that provably contain a near-optimal option for any desired objective.
 You can find my thesis [here](https://jaimoondra.github.io/files/thesis.pdf).
 
+*I am on the job market for faculty positions starting in Summer or Fall 2027. I will present my work at the [job market showcase](https://submissions.mirasmart.com/InformsAnnual2026/Itinerary/EventDetail.aspx?evt=858) at INFORMS 2026.*
+
 More on my research, all of which is with my fantastic collaborators:
 
 - **Approximation algorithms**: I design approximation algorithms for classical combinatorial optimization problems, usually in multi-objective settings motivated by fairness concerns [[SODA 25, Math Prog 26]](https://arxiv.org/abs/2311.03230), [[EC 23]](https://arxiv.org/abs/2211.14873), [[arXiv 22]](https://arxiv.org/abs/2208.04410) and in stochastic settings [[arXiv 26*]](https://arxiv.org/abs/2604.02611).
@@ -76,8 +78,6 @@ Specifically, my research develops classical pre-processing methods for QAOA alg
 - **Online learning**: My research involves using combinatorial techniques to provide improved theoretical guarantees and empirical performance of online algorithms [\[arXiv 26*\]](https://arxiv.org/abs/2602.13177) [[NeurIPS 21]](https://arxiv.org/abs/2106.11943).
 
 \* denotes papers under review.
-
-I am on the job market for faculty positions starting in Summer or Fall 2027.
 
 Outside of work, I enjoy poetry, biking, being in nature, following cricket, and cooking.
 
